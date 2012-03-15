@@ -1,7 +1,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!-- This super list doesn't work for specification of ALL tech. You must be specific in the tech you are trying to read -->
 	<tech-list>
-	    <tech>android.nfc.tech.Isodep</tech>
+	    <tech>android.nfc.tech.IsoDep</tech>
 	    <tech>android.nfc.tech.NfcA</tech>
 	    <tech>android.nfc.tech.NfcB</tech>
 	    <tech>android.nfc.tech.NfcF</tech>

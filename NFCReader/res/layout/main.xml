@@ -8,7 +8,7 @@
         android:id="@+id/tagDiscovery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tag Discovery"
+        android:text="Tag Discovery:"
 	></TextView>
 
     <TextView
@@ -22,7 +22,7 @@
         android:id="@+id/tagFromIntent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tag from Intent"
+        android:text="Tag from Intent:"
 	></TextView>
 
     <TextView
@@ -30,5 +30,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-    ></TextView>    
+    ></TextView>  
+    
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test:"
+	></TextView>
+
+    <TextView
+        android:id="@+id/dataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+    ></TextView>     
+    
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test:"
+	></TextView>
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+    ></TextView>     
 </LinearLayout>
