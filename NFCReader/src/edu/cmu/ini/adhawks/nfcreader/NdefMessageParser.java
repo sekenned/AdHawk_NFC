@@ -19,9 +19,6 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 
 import edu.cmu.ini.adhawks.nfcreader.nfcrecords.ParsedNdefRecord;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.SmartPoster;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.TextRecord;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.UriRecord;
 
 import java.util.ArrayList;
 import java.util.List;
