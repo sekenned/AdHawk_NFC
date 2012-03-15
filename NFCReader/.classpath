@@ -4,6 +4,6 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry kind="lib" path="/Users/cdorros/bin/android-sdk-macosx/add-ons/guava/lib/guava-11.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gowens/workspace/WNSS/AdHawk_NFC/NFCReader/lib/guava-11.0.2.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
