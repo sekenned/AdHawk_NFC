@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+<<<<<<< HEAD
 
     <TextView
         android:id="@+id/tagDiscovery"
@@ -31,4 +32,34 @@
         android:layout_height="wrap_content"
         android:text=""
     ></TextView>    
+=======
+
+    <TextView
+        android:id="@+id/tagDiscovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag Discovery"
+	></TextView>
+
+    <TextView
+        android:id="@+id/discoveryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+    ></TextView>
+    
+    <TextView
+        android:id="@+id/tagFromIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag from Intent"
+	></TextView>
+
+    <TextView
+        android:id="@+id/intentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+    ></TextView>    
+>>>>>>> 4f851c798974576c179d7837ca1f374e2cc9811d
 </LinearLayout>
