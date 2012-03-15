@@ -1,7 +1,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!-- This super list doesn't work for specification of ALL tech. You must be specific in the tech you are trying to read -->
+	<!-- 
 	<tech-list>
-	    <tech>android.nfc.tech.Isodep</tech>
+	    <tech>android.nfc.tech.IsoDep</tech>
 	    <tech>android.nfc.tech.NfcA</tech>
 	    <tech>android.nfc.tech.NfcB</tech>
 	    <tech>android.nfc.tech.NfcF</tech>
@@ -11,7 +12,8 @@
 	    <tech>android.nfc.tech.MifareClassic</tech>
 	    <tech>android.nfc.tech.MifareUltralight</tech>
 	</tech-list>
-	
+	-->
+		
 	<!-- This is for the MiFareUltralight cards  -->
 	<tech-list>
 	    <tech>android.nfc.tech.MifareUltralight</tech>
@@ -19,7 +21,10 @@
 	
 	<!-- This is for the PNC Creditcards -->
 	<tech-list>
-	    <tech>android.nfc.tech.Isodep</tech>
-	    <tech>android.nfc.tech.NfcB</tech>
-	</tech-list>		
+	    <tech>android.nfc.tech.IsoDep</tech>
+	</tech-list>
+	<tech-list>
+		<tech>android.nfc.tech.NfcB</tech>
+	</tech-list>
+	
 </resources>

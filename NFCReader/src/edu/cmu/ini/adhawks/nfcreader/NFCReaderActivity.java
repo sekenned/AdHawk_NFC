@@ -37,6 +37,8 @@ public class NFCReaderActivity extends Activity
         Intent intent = getIntent();
         String action = intent.getAction();
 
+        
+        
         if(NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
         {
             discoveryText.setText("NDEF Tag read!!");
@@ -48,13 +50,16 @@ public class NFCReaderActivity extends Activity
             
             byte[] data;
             Tag tagFromIntent = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+            
+            
             MifareClassic mfc = MifareClassic.get(tagFromIntent);
             MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
+            
             
             intentInfo.setText(tagFromIntent.getTechList().toString());
             
         }
-        //if the intent is a Tag Discovered, process it
+    //if the intent is a Tag Discovered, process it
         //TAG_DISCOVERED is a last resort action
         else if(NfcAdapter.ACTION_TAG_DISCOVERED.equals(action))
         {
@@ -84,5 +89,7 @@ public class NFCReaderActivity extends Activity
         {
         	discoveryText.setText("No tag read :(");
         }
+        
+        
     }
 }
