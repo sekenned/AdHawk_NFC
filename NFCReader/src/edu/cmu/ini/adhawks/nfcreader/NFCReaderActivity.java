@@ -49,14 +49,24 @@ public class NFCReaderActivity extends Activity
         	discoveryText.setText("TECH Tag read!! /r/n Need to figure out what kind of tag it is");
             
             byte[] data;
+            
+            //get tag from intent
             Tag tagFromIntent = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
             
+           // MifareClassic mfc = MifareClassic.get(tagFromIntent);
+           // MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
+
+            //Get tech list (tag type) from intent
+            String[] localTechList = tagFromIntent.getTechList();
             
-            MifareClassic mfc = MifareClassic.get(tagFromIntent);
-            MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
-            
-            
-            intentInfo.setText(tagFromIntent.getTechList().toString());
+            //Print out tech list to screen
+            String localTechListString = "";
+            for(String s : localTechList)
+            {
+            	localTechListString += s;
+            	localTechListString += " ";
+            }
+            intentInfo.setText(localTechListString);
             
         }
     //if the intent is a Tag Discovered, process it
