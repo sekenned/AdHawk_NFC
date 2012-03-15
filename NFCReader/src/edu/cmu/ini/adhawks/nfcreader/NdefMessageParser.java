@@ -41,13 +41,16 @@ public class NdefMessageParser {
     public static List<ParsedNdefRecord> getRecords(NdefRecord[] records) {
         List<ParsedNdefRecord> elements = new ArrayList<ParsedNdefRecord>();
         for (NdefRecord record : records) {
-            if (UriRecord.isUri(record)) {
+       /**     
+        	if (UriRecord.isUri(record)) {
+        
                 elements.add(UriRecord.parse(record));
             } else if (TextRecord.isText(record)) {
                 elements.add(TextRecord.parse(record));
             } else if (SmartPoster.isPoster(record)) {
                 elements.add(SmartPoster.parse(record));
             }
+		*/
         }
         return elements;
     }
