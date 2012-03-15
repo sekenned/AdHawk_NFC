@@ -46,6 +46,10 @@ public class NFCReaderActivity extends Activity
     {
     	String action = intent.getAction();
     	
+        String action = intent.getAction();
+
+        
+        
         if(NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
         {
             discoveryText.setText("NDEF Tag read!!");
@@ -53,11 +57,31 @@ public class NFCReaderActivity extends Activity
         // this is where we will be doing most of our work. Tech_Discovered is where all the other NFC formats are defined - GO
         else if(NfcAdapter.ACTION_TECH_DISCOVERED.equals(action))
         {
-        	discoveryText.setText("TECH Tag read!! Need to figure out what kind of tag it is");
-            Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        	discoveryText.setText("TECH Tag read!! /r/n Need to figure out what kind of tag it is");
+            
+            byte[] data;
+            
+            //get tag from intent
+            Tag tagFromIntent = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+            
+           // MifareClassic mfc = MifareClassic.get(tagFromIntent);
+           // MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
+
+            //Get tech list (tag type) from intent
+            String[] localTechList = tagFromIntent.getTechList();
+            
+            //Print out tech list to screen
+            String localTechListString = "";
+            for(String s : localTechList)
+            {
+            	localTechListString += s;
+            	localTechListString += " ";
+            }
+            intentInfo.setText(localTechListString);
         }
-        //if the intent is a Tag Discovered, process it
-        else if(NfcAdapter.ACTION_TAG_DISCOVERED.equals(action)) //TAG_DISCOVERED is a last resort action
+    	//if the intent is a Tag Discovered, process it
+        //TAG_DISCOVERED is a last resort action
+        else if(NfcAdapter.ACTION_TAG_DISCOVERED.equals(action))
         {
         	discoveryText.setText("TAG discovered!!. This program really should be picking the tag up before this");
             
@@ -84,7 +108,7 @@ public class NFCReaderActivity extends Activity
         else //if the intent wasn't a Tag Discovered, print that...
         {
         	discoveryText.setText("No tag read :(");
-        }
+        }     
     }
     
     //This is the code for reading MifareClassic cards, not sure if this actually works -GO    
