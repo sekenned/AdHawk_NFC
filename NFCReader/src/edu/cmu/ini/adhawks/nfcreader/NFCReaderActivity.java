@@ -51,8 +51,7 @@ public class NFCReaderActivity extends Activity
             MifareClassic mfc = MifareClassic.get(tagFromIntent);
             MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
             
-            tagFromIntent.toString();
-            intentInfo.setText(tagFromIntent.toString());
+            intentInfo.setText(tagFromIntent.getTechList().toString());
             
         }
         //if the intent is a Tag Discovered, process it
