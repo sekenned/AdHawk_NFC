@@ -30,8 +30,5 @@ public interface ParsedNdefRecord {
     public View getView(Activity activity, LayoutInflater inflater, ViewGroup parent,
             int offset);
 
-    public String getText();
-   
-    
-    
+    public String getText();  
 }

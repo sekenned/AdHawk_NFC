@@ -19,9 +19,6 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 
 import edu.cmu.ini.adhawks.nfcreader.nfcrecords.ParsedNdefRecord;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.SmartPoster;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.TextRecord;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.UriRecord;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,13 +41,14 @@ public class NdefMessageParser {
     public static List<ParsedNdefRecord> getRecords(NdefRecord[] records) {
         List<ParsedNdefRecord> elements = new ArrayList<ParsedNdefRecord>();
         for (NdefRecord record : records) {
-            if (UriRecord.isUri(record)) {
+          /**  if (UriRecord.isUri(record)) {
                 elements.add(UriRecord.parse(record));
             } else if (TextRecord.isText(record)) {
                 elements.add(TextRecord.parse(record));
             } else if (SmartPoster.isPoster(record)) {
                 elements.add(SmartPoster.parse(record));
             }
+           */
         }
         return elements;
     }
