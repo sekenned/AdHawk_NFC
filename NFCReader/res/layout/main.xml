@@ -17,13 +17,12 @@
         android:layout_height="wrap_content"
         android:text=""
     ></TextView>
-    
+
     <TextView
         android:id="@+id/tagFromIntent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tag from Intent:"
-	></TextView>
+        android:text="Tag from Intent:" />
 
     <TextView
         android:id="@+id/intentInfo"
@@ -36,7 +35,7 @@
         android:id="@+id/data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test:"
+        android:text="Data:"
 	></TextView>
 
     <TextView

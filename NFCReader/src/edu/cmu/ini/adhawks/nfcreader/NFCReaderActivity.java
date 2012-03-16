@@ -3,9 +3,8 @@ package edu.cmu.ini.adhawks.nfcreader;
 import java.io.IOException;
 import java.util.List;
 
-import edu.cmu.ini.adhawks.nfcreader.NdefMessageParser;
-import edu.cmu.ini.adhawks.nfcreader.R;
-import edu.cmu.ini.adhawks.nfcreader.nfcrecords.ParsedNdefRecord;
+import edu.cmu.ini.adhawks.nfcreader.*;
+import edu.cmu.ini.adhawks.nfcreader.parser.*;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,13 +12,9 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
-import android.nfc.tech.MifareClassic;
-import android.nfc.tech.MifareUltralight;
+import android.nfc.tech.TagTechnology;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class NFCReaderActivity extends Activity
@@ -36,6 +31,8 @@ public class NFCReaderActivity extends Activity
         //GUI setup
         discoveryText = (TextView) findViewById(R.id.discoveryText);
         intentInfo = (TextView) findViewById(R.id.intentInfo);
+        dataText = (TextView) findViewById(R.id.dataText);
+        testText = (TextView) findViewById(R.id.testText);
         
         //NFC stuff
         Intent intent = getIntent();
@@ -45,6 +42,7 @@ public class NFCReaderActivity extends Activity
     public void resolveIntent(Intent intent)
     {
     	String action = intent.getAction();
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         
         if(NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
         {
@@ -54,26 +52,37 @@ public class NFCReaderActivity extends Activity
         else if(NfcAdapter.ACTION_TECH_DISCOVERED.equals(action))
         {
         	discoveryText.setText("TECH Tag read!! /r/n Need to figure out what kind of tag it is");
-            
-            byte[] data;
-            
-            //get tag from intent
-            Tag tagFromIntent = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
-            
-           // MifareClassic mfc = MifareClassic.get(tagFromIntent);
-           // MifareUltralight mul = MifareUltralight.get(tagFromIntent); 
 
             //Get tech list (tag type) from intent
-            String[] localTechList = tagFromIntent.getTechList();
+            String[] techList = tag.getTechList();
             
             //Print out tech list to screen
-            String localTechListString = "";
-            for(String s : localTechList)
+            String techListString = "";
+            for(String tech : techList)
             {
-            	localTechListString += s;
-            	localTechListString += " ";
+            	techListString += tech;
+            	techListString += ", ";
+            	
+            
+            	if(tech.equals("android.nfc.tech.MifareUltralight"))
+            	{
+            		testText.setText("mul");
+            		MifareUltralightParser mup = new MifareUltralightParser();
+            		String tagData = mup.readMifareUltralight(tag);
+            		dataText.setText(tagData);
+            		testText.setText("Made it here");
+            	}            	
+            	else if(tech.equals("android.nfc.tech.Ndef"))
+            	{
+            		//testText.setText("ndef");
+            	}
+            	else if(tech.equals("android.nfc.tech.NfcA"))
+            	{
+            		//testText.setText("nfca");
+            	}            	
             }
-            intentInfo.setText(localTechListString);
+            
+            intentInfo.setText(techListString);
         }
     	//if the intent is a Tag Discovered, process it
         //TAG_DISCOVERED is a last resort action
@@ -105,84 +114,5 @@ public class NFCReaderActivity extends Activity
         {
         	discoveryText.setText("No tag read :(");
         }     
-    }
-    
-    //This is the code for reading MifareClassic cards, not sure if this actually works -GO    
-    public void readMiFareClassic(Tag tag)
-    {    
-    	  MifareClassic mfc = MifareClassic.get(tag);
-          
-          try 
-          {
-	            mfc.connect();
-	            boolean authenticate = false;
-	            byte[] byteData = null;
-	            String mfcData = null;
-	            
-	            //get the number of sectors the card has and loop through them
-	            int numSectors = mfc.getSectorCount();
-	            int numBlocks = 0;
-	            int blockIndex = 0;
-	            
-	            for(int sector = 0; sector < numSectors; sector++) 
-	            {
-	                //authenticate the sector
-	                authenticate = mfc.authenticateSectorWithKeyA(sector, MifareClassic.KEY_DEFAULT);
-	                
-	                if(authenticate)
-	                {
-	                    //get the block count in each sector
-	                	numBlocks = mfc.getBlockCountInSector(sector);
-	                	blockIndex = 0;
-	                    for(int block = 0; block < numBlocks; block++) 
-	                    {
-	                    	blockIndex = mfc.sectorToBlock(sector);
-	                        //read the block
-	                        byteData = mfc.readBlock(blockIndex);    
-	                        //Convert the data into a string from Hex format.                
-	                        //Log.i(TAG, getHexString(data, data.length));
-	                        blockIndex++;
-	                    }
-	                }
-	                else // Authentication failed - Handle it
-	                { 
-	                   
-	                }
-	            }
-          }
-          catch(IOException e) 
-          { 
-              //Log.e(TAG, e.getLocalizedMessage());
-              //showAlert(3);
-          }    	
-    }
- 
-    //Still working on reading MiFareUltralight cards -GO
-    public void readMiFareUltralight(Tag tag)
-    {   
-        MifareUltralight mul = MifareUltralight.get(tag);     	
-    	
-        try 
-        {
-        	mul.connect();
-        	byte[] byteData = null;
-        	String mulData = null;
-        	int totalPages = 16;
-        	
-        	byteData = mul.readPages(0); 
-        	
-//        	for(int page = 0; page < totalPages; page++)
-//        	{
-//        		byteData = mul.readPages(page);
-//        		mulData += new String(byteData);
-//        	}
-        	
-//        	intentInfo.setText(mulData);
-        	intentInfo.setText(new String(byteData));
-        }
-        catch(Exception e) 
-        { 
-        	e.getLocalizedMessage();
-        }   	
-    }    
+    }   
 }
