@@ -78,13 +78,10 @@ public class NFCReaderActivity extends Activity
             else if(techList.contains("android.nfc.tech.MifareClassic"))
             {
             	//- commenting out just for demo -CD
-            	/*
-            	testText.setText("mcp");
+            	
             	MifareClassicParser mcp = new MifareClassicParser();
             	String tagData = mcp.readMifareClassic(tag);
-            	dataText.setText(tagData);
-            	testText.setText("Made it here");   
-            	*/
+            	dataText.setText(tagData);   
             	
             	otherText.setText("MifareClassic tag found! \n");
             }

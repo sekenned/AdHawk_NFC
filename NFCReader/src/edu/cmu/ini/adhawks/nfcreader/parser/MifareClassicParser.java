@@ -35,7 +35,7 @@ public class MifareClassicParser
 	            for(int sector = 0; sector < numSectors; sector++) 
 	            {
 	                //authenticate the sector
-	                authenticate = mfc.authenticateSectorWithKeyA(sector, MifareClassic.KEY_DEFAULT);
+	                authenticate = mfc.authenticateSectorWithKeyB(sector, MifareClassic.KEY_DEFAULT);
 	                
 	                if(authenticate)
 	                {
