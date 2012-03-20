@@ -5,31 +5,32 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/tagDiscovery"
+        android:id="@+id/action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tag Discovery:"
+        android:text="Action Type:"
 	></TextView>
-
+    
     <TextView
-        android:id="@+id/discoveryText"
+        android:id="@+id/actionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
+	></TextView>    
+
+    <TextView
+        android:id="@+id/tagType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag Type:"
     ></TextView>
-
+    
     <TextView
-        android:id="@+id/tagFromIntent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tag from Intent:" />
-
-    <TextView
-        android:id="@+id/intentInfo"
+        android:id="@+id/tagTypeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-    ></TextView>  
+    ></TextView>    
     
     <TextView
         android:id="@+id/data"
@@ -46,14 +47,14 @@
     ></TextView>     
     
     <TextView
-        android:id="@+id/test"
+        android:id="@+id/other"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test:"
+        android:text="Other Info:"
 	></TextView>
 
     <TextView
-        android:id="@+id/testText"
+        android:id="@+id/otherText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""

@@ -1,7 +1,6 @@
 package edu.cmu.ini.adhawks.nfcreader.parser;
 
 import java.io.IOException;
-
 import android.nfc.Tag;
 import android.nfc.tech.MifareUltralight;
 import android.util.Log;
@@ -32,11 +31,11 @@ public class MifareUltralightParser
         	final int OFFSET = 4;
         	int totalPages = 0;
         	
-        	if(mul.getType() == mul.TYPE_ULTRALIGHT)
+        	if(mul.getType() == MifareUltralight.TYPE_ULTRALIGHT)
         	{
         		totalPages = 4;
         	}
-        	else if(mul.getType() == mul.TYPE_ULTRALIGHT_C)
+        	else if(mul.getType() == MifareUltralight.TYPE_ULTRALIGHT_C)
         	{
         		totalPages = 12;
         	}        	
