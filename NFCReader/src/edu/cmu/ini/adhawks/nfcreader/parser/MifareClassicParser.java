@@ -56,6 +56,7 @@ public class MifareClassicParser
 	                }
 	            }
 	            
+	            mfcData = mfcData.replaceAll("[^\\x20-\\x7e]", "");
 	            return mfcData;
           }
           catch(IOException e) 

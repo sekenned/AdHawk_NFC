@@ -47,6 +47,7 @@ public class MifareUltralightParser
         		mulData += new String(byteData);
         	}
         
+        	mulData = mulData.replaceAll("[^\\x20-\\x7e]", "");
         	return mulData;
         }
         catch(IOException e) 
