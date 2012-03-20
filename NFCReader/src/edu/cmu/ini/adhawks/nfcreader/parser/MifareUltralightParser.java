@@ -66,7 +66,6 @@ public class MifareUltralightParser
                catch(Exception e)
                {
 	               	Log.e("Read MifareUltrlight", "Error closing tag...", e);
-	               	return e.getLocalizedMessage();
                }
             }
         }        

@@ -51,7 +51,7 @@ public class NFCReaderActivity extends Activity
         // this is where we will be doing most of our work. Tech_Discovered is where all the other NFC formats are defined - GO
         else if(NfcAdapter.ACTION_TECH_DISCOVERED.equals(action))
         {
-        	discoveryText.setText("TECH Tag read!! /r/n Need to figure out what kind of tag it is");
+        	discoveryText.setText("TECH Tag read!! Need to figure out what kind of tag it is");
 
             //Get tech list (tag type) from intent
             String[] techList = tag.getTechList();
@@ -71,7 +71,15 @@ public class NFCReaderActivity extends Activity
             		String tagData = mup.readMifareUltralight(tag);
             		dataText.setText(tagData);
             		testText.setText("Made it here");
-            	}            	
+            	} 
+            	else if(tech.equals("android.nfc.tech.MifareClassic"))
+            	{
+            		testText.setText("mul");
+            		MifareClassicParser mcp = new MifareClassicParser();
+            		String tagData = mcp.readMifareClassic(tag);
+            		dataText.setText(tagData);
+            		testText.setText("Made it here");            		
+            	}
             	else if(tech.equals("android.nfc.tech.Ndef"))
             	{
             		//testText.setText("ndef");

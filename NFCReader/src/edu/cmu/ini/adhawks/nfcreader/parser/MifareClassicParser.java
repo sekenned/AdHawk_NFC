@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
+import android.util.Log;
 
 public class MifareClassicParser 
 {
@@ -15,7 +16,7 @@ public class MifareClassicParser
 	}
 	
 	//This is the code for reading MifareClassic cards, not sure if this actually works -GO 
-	public void readMifareClassic(Tag tag)
+	public String readMifareClassic(Tag tag)
     {    
     	  MifareClassic mfc = MifareClassic.get(tag);
           
@@ -49,18 +50,35 @@ public class MifareClassicParser
 	                        //Convert the data into a string from Hex format.                
 	                        //Log.i(TAG, getHexString(data, data.length));
 	                        blockIndex++;
+	                        mfcData += new String(byteData);
 	                    }
 	                }
 	                else // Authentication failed - Handle it
 	                { 
-	                   
+	                	return "Failed to Authenticate";
 	                }
 	            }
+	            
+	            return mfcData;
           }
           catch(IOException e) 
           { 
-              //Log.e(TAG, e.getLocalizedMessage());
-              //showAlert(3);
-          }    	
+             	Log.e("Read MifareClassic", "IOException while reading tag", e);        	
+            	return e.getLocalizedMessage();
+          }
+          finally 
+          {
+              if (mfc != null) 
+              {
+                 try 
+                 {
+                	 mfc.close();
+                 }
+                 catch(Exception e)
+                 {
+  	               	Log.e("Read MifareClassic", "Error closing tag...", e);
+                 }
+              }
+          }          
     }
 }
