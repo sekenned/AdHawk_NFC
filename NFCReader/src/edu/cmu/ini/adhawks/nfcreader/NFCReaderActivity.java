@@ -6,13 +6,16 @@ import java.util.List;
 import edu.cmu.ini.adhawks.nfcreader.parser.*;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.util.Log;
 import android.widget.TextView;
 
 public class NFCReaderActivity extends Activity
@@ -65,7 +68,6 @@ public class NFCReaderActivity extends Activity
             
             List<String> techList = Arrays.asList(techList_array);
             
-            
             if(techList.contains("android.nfc.tech.MifareUltralight"))
             {
             	MifareUltralightParser mup = new MifareUltralightParser();
@@ -77,8 +79,6 @@ public class NFCReaderActivity extends Activity
             } 
             else if(techList.contains("android.nfc.tech.MifareClassic"))
             {
-            	//- commenting out just for demo -CD
-            	
             	MifareClassicParser mcp = new MifareClassicParser();
             	String tagData = mcp.readMifareClassic(tag);
             	tagData += "\n";
@@ -127,5 +127,5 @@ public class NFCReaderActivity extends Activity
         {
         	actionText.setText("No tag read :( \n");
         }     
-    }   
+    }     
 }
