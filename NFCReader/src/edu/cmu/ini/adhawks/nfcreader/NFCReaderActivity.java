@@ -81,6 +81,7 @@ public class NFCReaderActivity extends Activity
             	
             	MifareClassicParser mcp = new MifareClassicParser();
             	String tagData = mcp.readMifareClassic(tag);
+            	tagData += "\n";
             	dataText.setText(tagData);   
             	
             	otherText.setText("MifareClassic tag found! \n");

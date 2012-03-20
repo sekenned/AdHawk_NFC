@@ -35,20 +35,17 @@ public class MifareClassicParser
 	            for(int sector = 0; sector < numSectors; sector++) 
 	            {
 	                //authenticate the sector
-	                authenticate = mfc.authenticateSectorWithKeyB(sector, MifareClassic.KEY_DEFAULT);
+	                authenticate = mfc.authenticateSectorWithKeyB(sector, MifareClassic.KEY_DEFAULT);	                
 	                
 	                if(authenticate)
 	                {
 	                    //get the block count in each sector
 	                	numBlocks = mfc.getBlockCountInSector(sector);
-	                	blockIndex = 0;
+	                	blockIndex = mfc.sectorToBlock(sector);
 	                    for(int block = 0; block < numBlocks; block++) 
 	                    {
-	                    	blockIndex = mfc.sectorToBlock(sector);
 	                        //read the block
 	                        byteData = mfc.readBlock(blockIndex);    
-	                        //Convert the data into a string from Hex format.                
-	                        //Log.i(TAG, getHexString(data, data.length));
 	                        blockIndex++;
 	                        mfcData += new String(byteData);
 	                    }
