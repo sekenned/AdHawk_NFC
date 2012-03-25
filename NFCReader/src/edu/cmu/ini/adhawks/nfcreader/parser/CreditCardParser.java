@@ -24,6 +24,17 @@ public class CreditCardParser {
 		}
 		return b;
 	}
+	
+	//Turns a byte array to string
+	public static String ByteArrayToString(byte[] byteArray)
+	{
+	  StringBuilder hex = new StringBuilder(byteArray.length*2);
+	  for(byte b : byteArray)
+	  {
+	    hex.append(String.format("{0:x2}",b));
+	  }
+	  return hex.toString();
+	}
 
 	
 	//This is the code for reading Credit Cards.  SK
@@ -33,11 +44,14 @@ public class CreditCardParser {
 			NfcB localNfcB = NfcB.get(tag);
 			try 
 			{
-				localIsoDep.connect(); 													// Connect to IsoDep
+				localIsoDep.connect(); 													    // Connect to IsoDep
 				//byte[] cmd = {(byte)0x00,(byte)0xB2,(byte)0x01,(byte)0x0C,(byte)0x00};	// Command dealing with Visa PayWave from Stack Overflow
-				byte[] cmd = {(byte)0x00,(byte)0xA4,(byte)0x04,(byte)0x00,(byte)0x00,(byte)0xA0,(byte)0x00,(byte)0x00,(byte)0x00,(byte)0x03,(byte)0x10,(byte)0x10,(byte)0x00,(byte)0x90,(byte)0x00};	//OpenSCDP cmd
+				byte[] cmd = {(byte)0x00,(byte)0xA4,(byte)0x04,(byte)0x00,
+							  (byte)0x00,(byte)0xA0,(byte)0x00,(byte)0x00,
+							  (byte)0x00,(byte)0x03,(byte)0x10,(byte)0x10,
+							  (byte)0x00,(byte)0x90,(byte)0x00};							//byte array derived from OpenSCDP cmd
 				
-				//String sData = "0xBB"; 				// got this magic value from web
+				//String sData = "0xBB"; 				// "got this magic value from web" - Stack overflow
 		        //byte []data = sData.getBytes();		//
 				
 				//new
@@ -50,8 +64,8 @@ public class CreditCardParser {
 						byte[] sfiByte = intToByteArray(sfi);
 						
 						//This code is modified from http://snippets.dzone.com/posts/show/93
-						byte[] tlv = localIsoDep.transceive((byte)0x00, (byte)0xB2, recByte, (sfiByte << (byte)0x03) | (byte)0x04, (byte)0x00);
-								//card.sendApdu(0x00, 0xB2, rec, (sfi << 3) | 4, 0x00);
+						byte[] tlv = localIsoDep.transceive((byte)0x00, (byte)0xB2, recByte, (sfi << (byte)0x03 | (byte)0x04, (byte)0x00); //(ByteArrayToString(sfiByte) << (byte)0x03) | (byte)0x04, (byte)0x00);
+						//card.sendApdu(0x00, 0xB2, rec, (sfi << 3) | 4, 0x00);
 						if (card.SW == 0x9000)//This is from the original 'card' format.  It needs to change to some sort of transceive output.  
 						{
 							
