@@ -43,7 +43,7 @@ public class NFCReaderActivity extends Activity
     public void resolveIntent(Intent intent)
     {
     	String action = intent.getAction();
-        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG); //Why not getParcelableArrayExtra ??
         
         if(NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
         {
@@ -90,6 +90,10 @@ public class NFCReaderActivity extends Activity
             {
             	//possible credit card
             	otherText.setText("Possible credit card tag found \n");
+            	CreditCardParser ccp = new CreditCardParser();
+            	String tagData = ccp.readCreditCard(tag);
+            	tagData += "\n";
+            	dataText.setText(tagData); //view tag data
             }
             else
             {
