@@ -1,5 +1,6 @@
 package edu.cmu.ini.adhawks.nfcreader;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -94,6 +95,7 @@ public class NFCReaderActivity extends Activity
             	String tagData = ccp.readCreditCard(tag);
             	tagData += "\n";
             	dataText.setText(tagData); //view tag data
+            	otherText.setText(ccp.hexToString(tagData));
             }
             else
             {
