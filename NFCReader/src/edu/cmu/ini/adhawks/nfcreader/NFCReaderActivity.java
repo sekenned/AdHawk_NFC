@@ -21,7 +21,7 @@ import android.widget.TextView;
 
 public class NFCReaderActivity extends Activity
 {
-	TextView actionText, tagTypeText, dataText, otherText;
+	TextView actionText, tagTypeText, dataText, otherText, decimalText;
 	
     /** Called when the activity is first created. */
     @Override
@@ -35,6 +35,7 @@ public class NFCReaderActivity extends Activity
         tagTypeText = (TextView) findViewById(R.id.tagTypeText);
         dataText = (TextView) findViewById(R.id.dataText);
         otherText = (TextView) findViewById(R.id.otherText);
+        decimalText = (TextView) findViewById(R.id.decimalText);
         
         //NFC stuff
         Intent intent = getIntent();
@@ -93,14 +94,20 @@ public class NFCReaderActivity extends Activity
             	otherText.setText("Possible credit card tag found \n");
             	CreditCardParser ccp = new CreditCardParser();
             	String tagData = ccp.readCreditCard(tag);
-            	tagData += "\n";
             	dataText.setText(tagData); //view tag data
             	otherText.setText(FormatConverter.hexToString(tagData));
+            	decimalText.setText(FormatConverter.hexToDecimal(tagData));
             	
             	//test material
-            	String cardData = ccp.getData().toString();
+            	String cardData = ccp.getData();
             	dataText.setText(cardData); //view tag data
             	otherText.setText(FormatConverter.hexToString(cardData));
+               	decimalText.setText(FormatConverter.hexToDecimal(cardData));
+            	
+            	String recordData = ccp.readRecord();
+            	dataText.setText(recordData); //view tag data
+            	otherText.setText(FormatConverter.hexToString(recordData));   
+            	decimalText.setText(FormatConverter.hexToDecimal(recordData));
             }
             else
             {

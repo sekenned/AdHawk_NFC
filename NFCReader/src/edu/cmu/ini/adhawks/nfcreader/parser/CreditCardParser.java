@@ -2,7 +2,6 @@ package edu.cmu.ini.adhawks.nfcreader.parser;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-
 import android.nfc.Tag;
 import android.nfc.tech.IsoDep;
 import android.nfc.tech.NfcB;
@@ -60,26 +59,40 @@ public class CreditCardParser {
 	{
 		try
 		{
-			byte[] AID = {(byte)-97, (byte)54};
+			byte[] cmd = {(byte)-97, (byte)54};
 			
-			int length = (byte)AID.length;
 			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
 			byteSteam.write(-128);
 			//INS= Select
 			byteSteam.write(-54);
 			//Data = AID
-			byteSteam.write(AID);
+			byteSteam.write(cmd);
 			//Le = As much as possible
 			byteSteam.write(0);
 			
-			byte[] byteArray1 = byteSteam.toByteArray();
-			byte[] response = localIsoDep.transceive(byteArray1);
+			byte[] response = localIsoDep.transceive(byteSteam.toByteArray());
 			byteSteam.reset();
 			byteSteam.flush();
 			
+//			byte[] arrayOfByte4 = null;
+//			int j;
+//		    if ((response != null) && (response[0] == cmd[0]) && (response[1] == cmd[1]))
+//		    {
+//		      int i = response[2];
+//		      arrayOfByte4 = new byte[i];
+//		      j = 0;
+//		      if (j < i)
+//		      {
+//				    for (String str = String.valueOf((arrayOfByte4[0] << 8) + arrayOfByte4[1]); ; str = "")
+//				    {
+//				      arrayOfByte4[j] = response[(j + 3)];
+//				      j++;
+//				      break;
+//				    }
+//		      }
+//		    }
 			
-			
-			
+		    
 			String responseText = FormatConverter.byteArrayToHexString(response);
 			return responseText;
 		}
@@ -88,6 +101,35 @@ public class CreditCardParser {
 			return e.getLocalizedMessage();
 		}
 	}
+	
+	public String readRecord()
+	{
+		try
+		{
+			byte[] cmd = {(byte)2};
+			
+			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
+			byteSteam.write(0);
+			byteSteam.write(-78);
+			byteSteam.write(cmd);
+			byteSteam.write(12);
+			byteSteam.write(0);
+			
+			byte[] byteArray1 = byteSteam.toByteArray();
+			byte[] response = localIsoDep.transceive(byteArray1);
+			byteSteam.reset();
+			byteSteam.flush();	
+			
+			String responseText = FormatConverter.byteArrayToHexString(response);
+			return responseText;
+			
+			//return null;
+		}
+		catch(Exception e)
+		{
+			return e.getLocalizedMessage();
+		}
+	}	
 	
 	//this currently does nothing - GO	
 	public byte[] getCardType() throws IOException 
