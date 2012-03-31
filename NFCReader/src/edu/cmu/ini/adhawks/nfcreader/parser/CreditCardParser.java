@@ -60,6 +60,8 @@ public class CreditCardParser {
 		try
 		{
 			byte[] cmd = {(byte)-97, (byte)54};
+			//byte[] cmd = {(byte)-97, (byte)19};
+			//byte[] cmd = {(byte)-128, (byte)-54};
 			
 			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
 			byteSteam.write(-128);
@@ -93,6 +95,18 @@ public class CreditCardParser {
 //		    }
 			
 		    
+			
+			
+			//write byte array to a string
+			/*
+			String s = "";
+			for(byte b : response)
+			{
+				s += b;
+			}
+			String responseText = s;
+			*/
+			
 			String responseText = FormatConverter.byteArrayToHexString(response);
 			return responseText;
 		}
@@ -106,7 +120,7 @@ public class CreditCardParser {
 	{
 		try
 		{
-			byte[] cmd = {(byte)2};
+			byte[] cmd = {(byte)1};
 			
 			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
 			byteSteam.write(0);
@@ -139,6 +153,39 @@ public class CreditCardParser {
 		//byte[] unknownAID2 = {(byte)-96, (byte)0, (byte)0, (byte)0, (byte)3,(byte)16,(byte)16};
 		
 		return visaDebitAID;
+	}
+	
+	//Parses response data to get CC number (hides middle digits) 
+	public String parseCCNumber(String recordData)
+	{
+		String ccNumber = "";
+		ccNumber = recordData.substring(8, 12);
+		ccNumber += " xxxx xxxx xx";
+		ccNumber += recordData.substring(23,24);
+		
+		return ccNumber;
+	}
+	
+	public String parseExpirationDate(String recordData)
+	{
+		//find the first D after the CC number and then the date will be after that
+		int dLocation=0;
+		for(int i=0; i<recordData.length(); i++)
+		{
+			if( recordData.charAt(i) == 'D')
+			{
+				dLocation = i;
+				break;
+			}
+		}
+		
+		String year = "20" + recordData.substring(dLocation + 1, dLocation + 3);
+		String month = recordData.substring(dLocation + 3, dLocation + 5);
+		
+		//return in month/year format
+		String expirationDate = month + "/" + year;
+		
+		return expirationDate;
 	}
 	
 	//Stu is trying to working on putting something together here so don't touch. Thanks! - GO

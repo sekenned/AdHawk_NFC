@@ -93,10 +93,13 @@ public class NFCReaderActivity extends Activity
             	//possible credit card
             	otherText.setText("Possible credit card tag found \n");
             	CreditCardParser ccp = new CreditCardParser();
+            	
+            	
             	String tagData = ccp.readCreditCard(tag);
             	dataText.setText(tagData); //view tag data
             	otherText.setText(FormatConverter.hexToString(tagData));
             	decimalText.setText(FormatConverter.hexToDecimal(tagData));
+            	
             	
             	//test material
             	String cardData = ccp.getData();
@@ -104,10 +107,15 @@ public class NFCReaderActivity extends Activity
             	otherText.setText(FormatConverter.hexToString(cardData));
                	decimalText.setText(FormatConverter.hexToDecimal(cardData));
             	
+            	
+            	
             	String recordData = ccp.readRecord();
-            	dataText.setText(recordData); //view tag data
-            	otherText.setText(FormatConverter.hexToString(recordData));   
-            	decimalText.setText(FormatConverter.hexToDecimal(recordData));
+            	//dataText.setText(recordData); //view tag data
+            	dataText.setText(ccp.parseCCNumber(recordData));
+            	otherText.setText(FormatConverter.hexToString(recordData));
+            	//decimalText.setText(FormatConverter.hexToDecimal(recordData));
+            	decimalText.setText(ccp.parseExpirationDate(recordData));
+            	
             }
             else
             {
