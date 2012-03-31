@@ -47,7 +47,7 @@ public class CreditCardParser {
 			byteSteam.reset();
 			byteSteam.flush();
 			
-			String responseText = this.byteArrayToHexString(response);
+			String responseText = FormatConverter.byteArrayToHexString(response);
 			return responseText;					
 		}
 		catch(IOException e)
@@ -56,66 +56,37 @@ public class CreditCardParser {
 		}	
 	}
 	
-	public String byteArrayToHexString(byte[] byteArray) 
+	public String getData()
 	{
-		StringBuffer buffer = new StringBuffer(byteArray.length * 2);
-		
-		for (int i = 0; i < byteArray.length; i++)
+		try
 		{
-			//& is a bitwise AND operation 
-			int value = byteArray[i] & 0xff;
-			if (value < 16) 
-			{
-				buffer.append('0');
-			}
+			byte[] AID = {(byte)-97, (byte)54};
 			
-			buffer.append(Integer.toHexString(value));
+			int length = (byte)AID.length;
+			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
+			byteSteam.write(-128);
+			//INS= Select
+			byteSteam.write(-54);
+			//Data = AID
+			byteSteam.write(AID);
+			//Le = As much as possible
+			byteSteam.write(0);
+			
+			byte[] byteArray1 = byteSteam.toByteArray();
+			byte[] response = localIsoDep.transceive(byteArray1);
+			byteSteam.reset();
+			byteSteam.flush();
+			
+			
+			
+			
+			String responseText = FormatConverter.byteArrayToHexString(response);
+			return responseText;
 		}
-		
-		return buffer.toString().toUpperCase();
-	}
-
-	public String hexToString(String hex)
-	{	  
-		StringBuilder buffer = new StringBuilder();
-		StringBuilder tempBuffer = new StringBuilder();
-		 
-		for( int i=0; i<hex.length()-1; i+=2 )
+		catch(Exception e)
 		{
-			//grab the hex in pairs
-			String output = hex.substring(i, (i + 2));
-			//convert hex to decimal
-			int decimal = Integer.parseInt(output, 16);
-			//convert the decimal to character
-			buffer.append((char)decimal);
-			 
-			tempBuffer.append(decimal);
+			return e.getLocalizedMessage();
 		}
-		System.out.println("Decimal : " + tempBuffer.toString());
-		 
-		return buffer.toString();
-	}	
-	
-	//this currently does nothing - GO
-	public String tryAID(byte[] paramArrayOfByte) throws IOException
-	{
-		int length = (byte)paramArrayOfByte.length;
-		ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
-		byteSteam.write(0);
-		byteSteam.write(-92);
-		byteSteam.write(4);
-		byteSteam.write(0);
-		byteSteam.write(length);
-		byteSteam.write(paramArrayOfByte);
-		byteSteam.write(0);
-		
-		byte[] byteArray1 = byteSteam.toByteArray();
-		byte[] response = localIsoDep.transceive(byteArray1);
-		byteSteam.reset();
-		byteSteam.flush();
-		
-		String responseText = byteArrayToHexString(response);
-		return responseText;	
 	}
 	
 	//this currently does nothing - GO	
@@ -166,7 +137,6 @@ public class CreditCardParser {
 
 			//Old
 			byte[] response = localIsoDep.transceive(cmd);							// get response
-			
 			return new String(response);											//Return response as string	
 		}
 		catch(IOException e)

@@ -95,7 +95,12 @@ public class NFCReaderActivity extends Activity
             	String tagData = ccp.readCreditCard(tag);
             	tagData += "\n";
             	dataText.setText(tagData); //view tag data
-            	otherText.setText(ccp.hexToString(tagData));
+            	otherText.setText(FormatConverter.hexToString(tagData));
+            	
+            	//test material
+            	String cardData = ccp.getData().toString();
+            	dataText.setText(cardData); //view tag data
+            	otherText.setText(FormatConverter.hexToString(cardData));
             }
             else
             {
