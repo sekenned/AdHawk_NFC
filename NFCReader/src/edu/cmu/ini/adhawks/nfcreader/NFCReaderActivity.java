@@ -96,18 +96,15 @@ public class NFCReaderActivity extends Activity
             	String tagData = ccp.readCreditCard(tag);
             	dataText.setText(tagData); //view tag data
             	otherText.setText(FormatConverter.hexToString(tagData));
-            	decimalText.setText(FormatConverter.hexToDecimal(tagData));
             	
             	//test material
             	String cardData = ccp.getData();
             	dataText.setText(cardData); //view tag data
             	otherText.setText(FormatConverter.hexToString(cardData));
-               	decimalText.setText(FormatConverter.hexToDecimal(cardData));
             	
             	String recordData = ccp.readRecord();
             	dataText.setText(recordData); //view tag data
             	otherText.setText(FormatConverter.hexToString(recordData));   
-            	decimalText.setText(FormatConverter.hexToDecimal(recordData));
             }
             else
             {
