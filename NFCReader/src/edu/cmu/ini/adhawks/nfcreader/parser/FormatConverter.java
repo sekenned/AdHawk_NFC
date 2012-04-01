@@ -1,5 +1,7 @@
 package edu.cmu.ini.adhawks.nfcreader.parser;
 
+import com.google.common.base.CharMatcher;
+
 public class FormatConverter {
 
 	public static String hexToString(String hex)
@@ -18,8 +20,10 @@ public class FormatConverter {
 				buffer.append((char)decimal);				
 			} catch(Exception nfe) { }
 		}
-		 
-		return buffer.toString();
+		
+		//remove Non-ASCII characters
+		String data = CharMatcher.ASCII.retainFrom(buffer.toString());
+		return data.toUpperCase();
 	}
 	
 	public static String hexToDecimal(String hex)
@@ -58,7 +62,7 @@ public class FormatConverter {
 			
 			buffer.append(Integer.toHexString(value));
 		}
-		
+
 		return buffer.toString().toUpperCase();
 	}	
 	
