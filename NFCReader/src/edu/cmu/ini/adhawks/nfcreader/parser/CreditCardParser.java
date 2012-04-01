@@ -59,8 +59,6 @@ public class CreditCardParser {
 		try
 		{
 			byte[] cmd = {(byte)-97, (byte)54};
-			//byte[] cmd = {(byte)-97, (byte)19};
-			//byte[] cmd = {(byte)-128, (byte)-54};
 			
 			ByteArrayOutputStream byteSteam = new ByteArrayOutputStream();
 			byteSteam.write(-128);
@@ -72,19 +70,6 @@ public class CreditCardParser {
 			byte[] response = localIsoDep.transceive(byteSteam.toByteArray());
 			byteSteam.reset();
 			byteSteam.flush();
-			
-		    
-			
-			
-			//write byte array to a string
-			/*
-			String s = "";
-			for(byte b : response)
-			{
-				s += b;
-			}
-			String responseText = s;
-			*/
 			
 			String responseText = FormatConverter.byteArrayToHexString(response);
 			return responseText;
@@ -121,17 +106,6 @@ public class CreditCardParser {
 			return e.getLocalizedMessage();
 		}
 	}	
-
-	
-	//this currently does nothing - GO	
-	public byte[] getCardType() throws IOException 
-	{	
-		byte[] visaDebitAID = {(byte)-96, (byte)0, (byte)0, (byte)0, (byte)3};
-		//byte[] unknownAID = {(byte)-96, (byte)0, (byte)0, (byte)0, (byte)37};
-		//byte[] unknownAID2 = {(byte)-96, (byte)0, (byte)0, (byte)0, (byte)3,(byte)16,(byte)16};
-		
-		return visaDebitAID;
-	}
 	
 	//Parses response data to get CC number (hides middle digits) 
 	public String parseCCNumber(String recordData)
