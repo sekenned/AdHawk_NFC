@@ -40,13 +40,11 @@ public class CreditCardParser {
 			//Le = As much as possible
 			byteSteam.write(0);
 			
-			byte[] byteArray1 = byteSteam.toByteArray();
-			byte[] response = localIsoDep.transceive(byteArray1);
+			byte[] response = localIsoDep.transceive(byteSteam.toByteArray());
 			byteSteam.reset();
 			byteSteam.flush();
 			
-			String responseText = FormatConverter.byteArrayToHexString(response);
-			return responseText;					
+			return FormatConverter.byteArrayToHexString(response);					
 		}
 		catch(IOException e)
 		{
@@ -71,8 +69,7 @@ public class CreditCardParser {
 			byteSteam.reset();
 			byteSteam.flush();
 			
-			String responseText = FormatConverter.byteArrayToHexString(response);
-			return responseText;
+			return FormatConverter.byteArrayToHexString(response);
 		}
 		catch(Exception e)
 		{
@@ -93,13 +90,11 @@ public class CreditCardParser {
 			byteSteam.write(12);
 			byteSteam.write(0);
 			
-			byte[] byteArray1 = byteSteam.toByteArray();
-			byte[] response = localIsoDep.transceive(byteArray1);
+			byte[] response = localIsoDep.transceive(byteSteam.toByteArray());
 			byteSteam.reset();
 			byteSteam.flush();	
 			
-			String responseText = FormatConverter.byteArrayToHexString(response);
-			return responseText;
+			return FormatConverter.byteArrayToHexString(response);
 		}
 		catch(Exception e)
 		{
