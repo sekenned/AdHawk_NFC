@@ -1,22 +1,17 @@
 package edu.cmu.ini.adhawks.nfcreader;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 import edu.cmu.ini.adhawks.nfcreader.parser.*;
-
 import android.app.Activity;
-import android.app.PendingIntent;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.util.Log;
 import android.widget.TextView;
 
 public class NFCReaderActivity extends Activity
@@ -35,7 +30,6 @@ public class NFCReaderActivity extends Activity
         tagTypeText = (TextView) findViewById(R.id.tagTypeText);
         dataText = (TextView) findViewById(R.id.dataText);
         otherText = (TextView) findViewById(R.id.otherText);
-        decimalText = (TextView) findViewById(R.id.decimalText);
         
         //NFC stuff
         Intent intent = getIntent();
@@ -93,28 +87,19 @@ public class NFCReaderActivity extends Activity
             	//possible credit card
             	otherText.setText("Possible credit card tag found \n");
             	CreditCardParser ccp = new CreditCardParser();
-            	
-            	
+            	            	
             	String tagData = ccp.readCreditCard(tag);
             	dataText.setText(tagData); //view tag data
-            	otherText.setText(FormatConverter.hexToString(tagData));
-            	
-            	
-            	//test material
+            	otherText.setText(FormatConverter.hexToString(tagData));            	
+
             	String cardData = ccp.getData();
             	dataText.setText(cardData); //view tag data
             	otherText.setText(FormatConverter.hexToString(cardData));
-            	
-            	
-            	
+	
             	String recordData = ccp.readRecord();
-
-            	//dataText.setText(recordData); //view tag data
-            	dataText.setText(ccp.parseCCNumber(recordData));
+            	dataText.setText("CC Number: "+ ccp.parseCCNumber(recordData) 
+            			+"\nExpiry Date: "+ ccp.parseExpirationDate(recordData) + "\n");
             	otherText.setText(FormatConverter.hexToString(recordData));
-            	//decimalText.setText(FormatConverter.hexToDecimal(recordData));
-            	decimalText.setText(ccp.parseExpirationDate(recordData));
-            	
             }
             else
             {

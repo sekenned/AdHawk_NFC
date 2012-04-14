@@ -18,8 +18,6 @@ public final class R {
         public static final int actionText=0x7f060001;
         public static final int data=0x7f060004;
         public static final int dataText=0x7f060005;
-        public static final int decimal=0x7f060008;
-        public static final int decimalText=0x7f060009;
         public static final int other=0x7f060006;
         public static final int otherText=0x7f060007;
         public static final int tagType=0x7f060002;
