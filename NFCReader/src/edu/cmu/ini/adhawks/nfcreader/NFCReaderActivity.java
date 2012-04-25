@@ -29,7 +29,7 @@ public class NFCReaderActivity extends Activity
         actionText = (TextView) findViewById(R.id.actionText);
         tagTypeText = (TextView) findViewById(R.id.tagTypeText);
         dataText = (TextView) findViewById(R.id.dataText);
-        otherText = (TextView) findViewById(R.id.otherText);
+        //otherText = (TextView) findViewById(R.id.otherText);
         
         //NFC stuff
         Intent intent = getIntent();
@@ -85,21 +85,28 @@ public class NFCReaderActivity extends Activity
             else if(techList.contains("android.nfc.tech.IsoDep") && techList.contains("android.nfc.tech.NfcB"))
             {
             	//possible credit card
-            	otherText.setText("Possible credit card tag found \n");
+            	//otherText.setText("Possible credit card tag found \n");
+            	
             	CreditCardParser ccp = new CreditCardParser();
-            	            	
+            	
+            	//read raw data from card
             	String tagData = ccp.readCreditCard(tag);
-            	dataText.setText(tagData); //view tag data
-            	otherText.setText(FormatConverter.hexToString(tagData));            	
-
-            	String cardData = ccp.getData();
-            	dataText.setText(cardData); //view tag data
-            	otherText.setText(FormatConverter.hexToString(cardData));
-	
             	String recordData = ccp.readRecord();
-            	dataText.setText("CC Number: "+ ccp.parseCCNumber(recordData) 
-            			+"\nExpiry Date: "+ ccp.parseExpirationDate(recordData) + "\n");
-            	otherText.setText(FormatConverter.hexToString(recordData));
+            	
+            	//parse raw data to useful strings
+            	String ccNumber = ccp.parseCCNumber(recordData);
+            	String expDate = ccp.parseExpirationDate(recordData);
+            	String ccHolderName = ccp.parseCardHolderName(recordData);
+            	String cardType = ccp.parseCardType(tagData);
+            	
+            	//print results to screen
+            	dataText.setText("CC Number: "+ ccNumber + "\n" + 
+            			"Expiry Date: "+ expDate + "\n" +
+            			"Cardholder's Name: " + ccHolderName + "\n" +
+            			"Card Type: " + cardType);
+            	
+            	//otherText.setText();
+
             }
             else
             {

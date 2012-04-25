@@ -52,6 +52,8 @@ public class CreditCardParser {
 		}	
 	}
 	
+	
+	//nothing useful from this function -- not used
 	public String getData()
 	{
 		try
@@ -107,10 +109,69 @@ public class CreditCardParser {
 	{
 		String ccNumber = "";
 		ccNumber = recordData.substring(8, 12);
-		ccNumber += " xxxx xxxx xx";
-		ccNumber += recordData.substring(23,24);
+		ccNumber += " xxxx xxxx ";
+		ccNumber += recordData.substring(20,24);
 		
 		return ccNumber;
+	}
+	
+	//parses the credit card holder's name
+	public String parseCardHolderName(String recordData)
+	{
+		//first strip off the CC number
+		String name = recordData.substring(24, recordData.length());
+		name = FormatConverter.hexToString(name);
+		
+		//then look for the first English character
+		int startLocation = 0;
+		for(int i=0; i<name.length(); i++)
+		{
+			if( (name.charAt(i) >= 'A' && name.charAt(i) <= 'Z') 
+					|| (name.charAt(i) >= 'a' && name.charAt(i) <= 'z') )
+			{
+				startLocation = i;
+				break;
+			}
+		}
+		
+		return name.substring(startLocation, name.length());
+	}
+	
+	//right now this function just looks for known card type phrases and return that if found
+	//--otherwise, it will return the raw data, cleaned up with non-English characters removed
+	public String parseCardType(String tagData)
+	{
+		String cardType = FormatConverter.hexToString(tagData);
+		
+		//look for known phrases
+		if(cardType.contains("VISA DEBIT"))
+		{
+			return "VISA DEBIT";
+		}
+		else //else just remove non-English characters to clean up
+		{
+			boolean spaceAdded = false;
+			String cleanedCardType = "";
+			
+			for(int i=0; i<cardType.length(); i++)
+			{
+				if((cardType.charAt(i) >= 'A' && cardType.charAt(i) <= 'Z') 
+					|| (cardType.charAt(i) >= 'a' && cardType.charAt(i) <= 'z'))
+				{
+					//add the English character to our cleaned string
+					cleanedCardType += cardType.charAt(i);
+					spaceAdded = false;
+				}
+				else if(!spaceAdded)
+				{
+					//else add a space if we didn't already add one
+					cleanedCardType += " ";
+					spaceAdded = true;
+				}
+			}
+			
+			return cleanedCardType;
+		}
 	}
 	
 	public String parseExpirationDate(String recordData)
