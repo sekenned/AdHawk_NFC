@@ -1,5 +1,6 @@
 package edu.cmu.ini.adhawks.nfcreader;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
+import android.nfc.tech.IsoDep;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.widget.TextView;
@@ -107,6 +109,13 @@ public class NFCReaderActivity extends Activity
             	
             	//otherText.setText();
 
+            }
+            else if (techList.contains("android.nfc.tech.IsoDep"))
+            {
+            	DesFireParser dfc = new DesFireParser();
+            	
+            	String tagData = dfc.readDesFire(tag);
+            	dataText.setText(tagData);
             }
             else
             {
