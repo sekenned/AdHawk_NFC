@@ -114,8 +114,12 @@ public class NFCReaderActivity extends Activity
             {
             	DesFireParser dfc = new DesFireParser();
             	
+            	//String tagData = "UID and batch ID: " + dfc.readDesFire(tag) + "\n";
             	String tagData = dfc.readDesFire(tag);
+
             	dataText.setText(tagData);
+            	//dataText.setText(appData);
+            	
             }
             else
             {

@@ -64,6 +64,7 @@ public class FormatConverter {
 		}
 
 		return buffer.toString().toUpperCase();
-	}	
+	}
+
 	
 }
