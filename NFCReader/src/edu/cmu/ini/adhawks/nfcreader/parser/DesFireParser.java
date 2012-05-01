@@ -33,13 +33,13 @@ public class DesFireParser
 			dfc.connect();
 			ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
 			
-			byteStream.write(0x60);
+			byteStream.write(0x60);						// ---> Get Manufacturing Data
 			
 			dfc.transceive(byteStream.toByteArray());
 			byteStream.reset();
 			byteStream.flush();
 			
-			byteStream.write(0xaf);
+			byteStream.write(0xaf);						// --> Get more data
 			
 			dfc.transceive(byteStream.toByteArray());
 			byteStream.reset();
@@ -52,26 +52,26 @@ public class DesFireParser
 			
 			String manufData = FormatConverter.byteArrayToHexString(response);
 			
-			byteStream.write(0x5a);
-			byteStream.write(0x90);
-			byteStream.write(0x11);
-			byteStream.write(0xf2);
+			byteStream.write(0x5a);						// ---> Select Application:
+			byteStream.write(0x90);						//
+			byteStream.write(0x11);						//	
+			byteStream.write(0xf2);						// --> Clipper card:  0x901112 
 			
 			dfc.transceive(byteStream.toByteArray());
 			
 			byteStream.reset();
 			byteStream.flush();	
 
+//Get file 0x01
+			byteStream.write(0x6f);						// ---> Get File
 			
-			byteStream.write(0x6f);
-			
-			dfc.transceive(byteStream.toByteArray());
+			dfc.transceive(byteStream.toByteArray());	
 			byteStream.reset();
 			byteStream.flush();
 			
 			
-			byteStream.write(0xbd);
-			byteStream.write(0x01);
+			byteStream.write(0xbd);						// ---> Read Data
+			byteStream.write(0x01);						//      of File 0x01
 			byteStream.write(0x00);
 			byteStream.write(0x00);
 			byteStream.write(0x00);
@@ -84,17 +84,23 @@ public class DesFireParser
 			byteStream.reset();
 			byteStream.flush();
 			
-			byteStream.write(0xaf);
+			byteStream.write(0xaf);						// Get the rest of the extra data.  
 			
 			byte[] buff2 = dfc.transceive(byteStream.toByteArray());
-			String StringBuff2 = FormatConverter.byteArrayToHexString(buff2);
+			String StringBuff2 = FormatConverter.hexToDecimal(FormatConverter.byteArrayToHexString(buff2));
 			
 		
 			String rawDataFile0x01 = StringBuff1 + StringBuff2;
-			
-			
-//			byteStream.write(0xbd);
-//			byteStream.write(0x02);
+
+////Get file 0x02
+//			byteStream.write(0x6f);						// ---> Get File
+//			
+//			dfc.transceive(byteStream.toByteArray());	
+//			byteStream.reset();
+//			byteStream.flush();
+//			
+//			byteStream.write(0xbd);						// Read file
+//			byteStream.write(0x02);						//			0x02
 //			byteStream.write(0x00);
 //			byteStream.write(0x00);
 //			byteStream.write(0x00);
@@ -108,7 +114,98 @@ public class DesFireParser
 //			
 //			String rawDataFile0x02 = FormatConverter.byteArrayToHexString(response2);
 			
-			return ("Manufacture Data: " + manufData + "\n \n" + "Raw Data File 0x01: " + rawDataFile0x01);
+	
+			
+			
+//Get file 0x08	
+			byteStream.write(0x6f);						// ---> Get File
+			
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xbd);						// Read data 
+			byteStream.write(0x08);						// 			of file 0x08
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			byte[] result08 = dfc.transceive(byteStream.toByteArray());
+			String file08result = FormatConverter.byteArrayToHexString(result08);
+			
+			String rawDataFile0x08 = file08result;			
+			
+			
+//Get file 0x0e  >>>This file is 512 long.<<<
+			byteStream.write(0x6f);						// ---> Get File
+			
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xbd);						// Read data 
+			byteStream.write(0x0e);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			byte[] result0e00 = dfc.transceive(byteStream.toByteArray());
+			String file0x0eResultTotal = FormatConverter.byteArrayToHexString(result0e00);
+			
+			for (int i = 0; i < 8; i++){			//Loop through "get more data" command	
+				byteStream.reset();
+				byteStream.flush();
+		
+				byteStream.write(0xaf);						 
+				
+				byte[] tempresult = dfc.transceive(byteStream.toByteArray());
+				String tempString = FormatConverter.byteArrayToHexString(tempresult);
+				file0x0eResultTotal = file0x0eResultTotal + tempString;
+			}
+
+//Get file 0x0f >>>This file is 1280 long<<<	
+			byteStream.write(0x6f);						// ---> Get File
+			
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xbd);						// Read data 
+			byteStream.write(0x0f);						//			for file 0x0f
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			byte[] result0f = dfc.transceive(byteStream.toByteArray());
+			String file0x0fResultTotal = FormatConverter.byteArrayToHexString(result0f);
+			
+			for (int i = 0; i < 21; i++){			//Loop through "get more data" command	
+				byteStream.reset();
+				byteStream.flush();
+		
+				byteStream.write(0xaf);						 
+				
+				byte[] tempresult = dfc.transceive(byteStream.toByteArray());
+				String tempString = FormatConverter.byteArrayToHexString(tempresult);
+				file0x0fResultTotal = file0x0fResultTotal + tempString;
+			}
+
+			
+
+			return ("Manufacture Data: " + manufData + "\n \n" + 
+					"Raw Data File 0x01: " + rawDataFile0x01 + "\n \n" + 
+					"File 0x08: " + rawDataFile0x08  + "\n \n" +
+					"File 0x0e: " + file0x0eResultTotal + "\n \n" + 
+					"File 0x0f: " + file0x0fResultTotal);
 			
 			
 		} catch (IOException e) {
