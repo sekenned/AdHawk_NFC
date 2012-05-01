@@ -90,34 +90,10 @@ public class DesFireParser
 			String StringBuff2 = FormatConverter.hexToDecimal(FormatConverter.byteArrayToHexString(buff2));
 			
 		
-			String rawDataFile0x01 = StringBuff1 + StringBuff2;
-
-////Get file 0x02
-//			byteStream.write(0x6f);						// ---> Get File
-//			
-//			dfc.transceive(byteStream.toByteArray());	
-//			byteStream.reset();
-//			byteStream.flush();
-//			
-//			byteStream.write(0xbd);						// Read file
-//			byteStream.write(0x02);						//			0x02
-//			byteStream.write(0x00);
-//			byteStream.write(0x00);
-//			byteStream.write(0x00);
-//			byteStream.write(0x00);
-//			byteStream.write(0x00);
-//			byteStream.write(0x00);
-//			
-//			byte[] response2 = dfc.transceive(byteStream.toByteArray());
-//			byteStream.reset();
-//			byteStream.flush();
-//			
-//			String rawDataFile0x02 = FormatConverter.byteArrayToHexString(response2);
-			
+			String rawDataFile0x01 = StringBuff1 + StringBuff2;			
 	
+	//Get file 0x02			
 			
-			
-//Get file 0x08	
 			byteStream.write(0x6f);						// ---> Get File
 			
 			dfc.transceive(byteStream.toByteArray());	
@@ -125,7 +101,7 @@ public class DesFireParser
 			byteStream.flush();
 			
 			byteStream.write(0xbd);						// Read data 
-			byteStream.write(0x08);						// 			of file 0x08
+			byteStream.write(0x02);						// 			of file 0x02
 			byteStream.write(0x00);
 			byteStream.write(0x00);
 			byteStream.write(0x00);
@@ -133,11 +109,83 @@ public class DesFireParser
 			byteStream.write(0x00);
 			byteStream.write(0x00);
 			
-			byte[] result08 = dfc.transceive(byteStream.toByteArray());
-			String file08result = FormatConverter.byteArrayToHexString(result08);
+			byte[] result32 = dfc.transceive(byteStream.toByteArray());
+			String file02result = FormatConverter.byteArrayToHexString(result32);
+	
+	//Get file 0x06
+			byteStream.write(0x6f);						// ---> Get File
 			
-			String rawDataFile0x08 = file08result;			
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
 			
+			
+			byteStream.write(0xbd);						// ---> Read Data
+			byteStream.write(0x06);						//      of File 0x06
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			byte[] buff6 = dfc.transceive(byteStream.toByteArray());
+			String StringBuff6 = FormatConverter.byteArrayToHexString(buff6);
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xaf);						// Get the rest of the extra data.  
+			
+			byte[] buff6more = dfc.transceive(byteStream.toByteArray());
+			StringBuff6 = StringBuff6 + FormatConverter.byteArrayToHexString(buff6more);
+			
+			//Get file 0x05
+			byteStream.write(0x6f);						// ---> Get File
+			
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
+			
+			
+			byteStream.write(0xbd);						// ---> Read Data
+			byteStream.write(0x05);						//      of File 0x05
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			byte[] buff5 = dfc.transceive(byteStream.toByteArray());
+			String StringBuff5 = FormatConverter.byteArrayToHexString(buff5);
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xaf);						// Get the rest of the extra data.  
+			
+			byte[] buff5more = dfc.transceive(byteStream.toByteArray());
+			StringBuff5 = StringBuff5 + FormatConverter.byteArrayToHexString(buff5more);
+			
+			
+	//Get file 0x08
+			byteStream.write(0x6f);						// ---> Get File
+				
+			dfc.transceive(byteStream.toByteArray());	
+			byteStream.reset();
+			byteStream.flush();
+			
+			byteStream.write(0xbd);						// Read data 
+			byteStream.write(0x08);						// 			of file 0x02
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			byteStream.write(0x00);
+			
+			result32 = dfc.transceive(byteStream.toByteArray());
+			String file08result = FormatConverter.byteArrayToHexString(result32);
+		
 			
 //Get file 0x0e  >>>This file is 512 long.<<<
 			byteStream.write(0x6f);						// ---> Get File
@@ -166,7 +214,7 @@ public class DesFireParser
 				
 				byte[] tempresult = dfc.transceive(byteStream.toByteArray());
 				String tempString = FormatConverter.byteArrayToHexString(tempresult);
-				file0x0eResultTotal = file0x0eResultTotal + tempString;
+				file0x0eResultTotal = file0x0eResultTotal + tempString;	
 			}
 
 //Get file 0x0f >>>This file is 1280 long<<<	
@@ -200,10 +248,13 @@ public class DesFireParser
 			}
 
 			
-
 			return ("Manufacture Data: " + manufData + "\n \n" + 
-					"Raw Data File 0x01: " + rawDataFile0x01 + "\n \n" + 
-					"File 0x08: " + rawDataFile0x08  + "\n \n" +
+					"Raw Data \n\n" +
+					"File 0x01: " + rawDataFile0x01 + "\n \n" +
+					"File 0x02: " + file02result + "\n \n" +
+					"File 0x05: " + StringBuff5 + "\n \n" +
+					"File 0x06: " + StringBuff6 + "\n \n" +
+					"File 0x08: " + file08result  + "\n \n" +
 					"File 0x0e: " + file0x0eResultTotal + "\n \n" + 
 					"File 0x0f: " + file0x0fResultTotal);
 			
