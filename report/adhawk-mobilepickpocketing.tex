@@ -1,0 +1,114 @@
+%DOCUMENT SETUP STUFF---------------
+%\documentclass[11pt]{amsart}
+\documentclass[11pt]{article}
+%\documentclass[conference]{IEEEtran}
+
+%\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\usepackage[margin=1.0in]{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+
+%line spacing
+\usepackage{setspace}
+%\doublespacing
+\onehalfspace
+
+%MATH
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+%IMAGES/GRAPHICS
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{subfig}
+
+%Code listing stuff
+\usepackage{listings}
+\lstset{basicstyle=\small}
+\lstset{breaklines=true}
+\lstset{frame=single}
+
+%Highlighting
+\usepackage{soul}
+\usepackage{color}
+
+%Underlining & strikeout
+\usepackage[normalem]{ulem}
+	%\uline{this is underlined}
+	%\uwave{wavy underline}
+	%\sout{strike out}
+
+%Multiline comments
+\usepackage{verbatim}
+	%\begin{comment} \end{comment}
+
+%Indent verbatim entries
+%\makeatletter \def\verbatim@startline{\verbatim@line{\leavevmode\kern20pt\relax}} \makeatother
+
+%Place each section on new page
+%\let\stdsection\section
+%\renewcommand\section{\newpage\stdsection}
+	%use this for manual new page: \newpage
+
+%For tilde symbol (~)
+\usepackage{url}
+	% \url{ ~\ thats my home dir }
+
+%For URL in bibliography
+%\usepackage{natbib}
+	% use this for bib: \bibliographystyle{plainnat}
+\usepackage{url}
+%----------------------------------------------------------
+
+%GENERAL INFO------------------------------------
+%\title{Mobile Pickpocketing}
+%\subtitle{Exfiltration of Sensitive Data through NFC-enabled Mobile Devices}
+\title{Mobile Pickpocketing \\ \normalsize{Exfiltration of Sensitive Data through NFC-enabled Mobile Devices}}
+\author{Ryan Caney, Christopher Dorros, Stuart Kennedy, Gregory Owens \\ Carnegie Mellon University}
+\date{May 10 2012}
+%-----------------------------------------------------------
+
+\begin{document}
+
+\begin{singlespace}
+\maketitle
+\end{singlespace} 
+
+%\tableofcontents
+%----------------------------------------------------------------------------------
+%\begin{abstract}
+%\end{abstract}
+
+\section{Introduction}
+
+\section{Building a Mobile Pickpocketing App}
+
+\section{Attack Model}
+
+\section{App Observations}
+
+\section{Defenses}
+\subsection{Short-term}
+
+\subsection{Long-term}
+
+\section{Future Work}
+
+\section{Conclusions}
+
+\section{Acknowledgements}
+
+
+%--REFERENCES--------------------
+%\bibliographystyle{plainnat}
+%\bibliographystyle{amsplain}
+\bibliographystyle{acm}
+\bibliography{adhawk-mobilepickpocketing}
+
+\nocite{*}
+%--------------------------------
+
+\end{document}
+
