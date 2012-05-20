@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  10 MAY 2012 15:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  20 MAY 2012 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,14 +387,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(./adhawk-mobilepickpocketing.aux
-
-LaTeX Warning: Label `fig:RFID_in_PNC_Card' multiply defined.
-
-
-LaTeX Warning: Label `fig:RFID_chip_location' multiply defined.
-
-)
+(./adhawk-mobilepickpocketing.aux)
 \openout1 = `adhawk-mobilepickpocketing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -463,48 +456,13 @@ Package caption Info: subfig package 1.2 or 1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count130
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
- [2]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
- [3]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
- [4]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-
+] [2] [3] [4]
 <images/RFID_in_PNC_Card.png, id=17, 1541.76pt x 1488.56125pt>
 File: images/RFID_in_PNC_Card.png Graphic file (type png)
 
@@ -518,21 +476,10 @@ File: images/RFID_chip_location.png Graphic file (type png)
 <use images/RFID_chip_location.png>
 Package pdftex.def Info: images/RFID_chip_location.png used on input line 172.
 (pdftex.def)             Requested size: 187.89914pt x 123.43787pt.
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
 
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
- [5 <./images/RFID_in_PNC_Card.png> <./images/RFID_chip_location.png>]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
- [6]
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-
+ [5 <./images/RFID_in_PNC_Card.png> <./images/RFID_chip_location.png>] [6]
 (./adhawk-mobilepickpocketing.bbl
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
@@ -779,23 +726,20 @@ paper -[] app -[]
 
 ) [9
 
-] (./adhawk-mobilepickpocketing.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./adhawk-mobilepickpocketing.aux) ) 
 Here is how much of TeX's memory you used:
  6250 strings out of 493629
  95879 string characters out of 3143323
- 181160 words of memory out of 3000000
+ 181121 words of memory out of 3000000
  9454 multiletter control sequences out of 15000+200000
  39413 words of font info for 82 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,7n,42p,1473b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
-1/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on adhawk-mobilepickpocketing.pdf (9 pages, 4809021 bytes).
+{/usr/local/texlive/2011/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on adhawk-mobilepickpocketing.pdf (9 pages, 4809074 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
