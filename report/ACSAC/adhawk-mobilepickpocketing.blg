@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: adhawk-mobilepickpocketing.aux
+The style file: abbrv.bst
+Database file #1: adhawk-mobilepickpocketing.bib
+Warning--I'm ignoring smartcardaliance-more-visa-paywave's extra "note" field
+--line 15 of file adhawk-mobilepickpocketing.bib
+Warning--I'm ignoring ds-nfc-enabling-technology's extra "howpublished" field
+--line 741 of file adhawk-mobilepickpocketing.bib
+Warning--to sort, need author or key in ecma-nfc-adoption
+Warning--to sort, need author or key in nfcworld-nfc-additions-android-2.3.3
+Warning--to sort, need author or key in google-blog-1
+Warning--to sort, need author or key in google-wallet-security-1
+Warning--to sort, need author or key in esecurityplanet-google-wallet-hacked
+Warning--to sort, need author or key in smartcardaliance-more-visa-paywave
+Warning--to sort, need author or key in idstronghold-1
+Warning--to sort, need author or key in 11alive-electronic-pickpocket-apps
+Warning--to sort, need author or key in farebot-1
+Warning--to sort, need author or key in google-play-idstronghold
+Warning--to sort, need author or key in opennfc-1
+Warning--to sort, need author or key in android-developers-advanced-nfc
+Warning--to sort, need author or key in pittcard-1
+Warning--to sort, need author or key in list-of-nfc-phones
+Warning--to sort, need author or key in android-developers-nfc-basics
+Warning--to sort, need author or key in emv-upgrade
+Warning--to sort, need author or key in smartphonechamp-second-major-flaw-google-wallet
+Warning--to sort, need author or key in electronista-mcafee-malware-surge
+Warning--to sort, need author or key in amazon-android-appstore
+Warning--to sort, need author or key in android-developers-beam
+Warning--to sort, need author or key in upitt-rfid-switch
+Warning--can't use both volume and number fields in ieee-beacon-mobileos-review
+You've used 37 entries,
+            2118 wiz_defined-function locations,
+            682 strings with 10792 characters,
+and the built_in function-call counts, 8325 in all, are:
+= -- 836
+> -- 203
+< -- 6
++ -- 97
+- -- 58
+* -- 392
+:= -- 1172
+add.period$ -- 118
+call.type$ -- 37
+change.case$ -- 141
+chr.to.int$ -- 0
+cite$ -- 59
+duplicate$ -- 334
+empty$ -- 903
+format.name$ -- 58
+if$ -- 1932
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 6
+newline$ -- 193
+num.names$ -- 32
+pop$ -- 308
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 271
+stack$ -- 0
+substring$ -- 307
+swap$ -- 76
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 148
+warning$ -- 22
+while$ -- 46
+width$ -- 39
+write$ -- 384
+(There were 24 warnings)
