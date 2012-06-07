@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  29 MAY 2012 16:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  7 JUN 2012 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,67 +297,56 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 126.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Overfull \hbox (1.26794pt too wide) in paragraph at lines 133--134
-\T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer/m
-/n/9 ]: Mis-cel-la-neous;
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Overfull \hbox (9.73953pt too wide) in paragraph at lines 154--154
+Overfull \hbox (9.73953pt too wide) in paragraph at lines 153--153
 []\secfnt BUILDING A MO-BILE PICK-POCK-ET-ING
  []
 
 [2]
-Overfull \hbox (16.53873pt too wide) in paragraph at lines 174--175
-\T1/aer/m/n/9 such ap-pli-ca-tions is en-tirely doable (as proven by ID Strongh
-old's
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (5.87393pt too wide) in paragraph at lines 179--180
+Overfull \hbox (5.87393pt too wide) in paragraph at lines 178--179
 []\T1/aer/m/n/9 For ap-pli-ca-tion de-vel-op-ment, we used 2011 Sam-sung Google
 
  []
 
 
-Overfull \hbox (5.4164pt too wide) in paragraph at lines 184--185
+Overfull \hbox (5.4164pt too wide) in paragraph at lines 183--184
 []\T1/aer/m/n/9 Despite the ex-hor-ta-tions of se-cu-rity com-pa-nies sell-ing 
 RFID
  []
 
 
-Overfull \hbox (7.58315pt too wide) in paragraph at lines 186--187
+Overfull \hbox (7.58315pt too wide) in paragraph at lines 185--186
 \T1/aer/m/n/9 un-der con-trolled cir-cum-stances), what sort of pro-tec-tion wo
 uld
  []
 
-[3] <images/RFID_in_PNC_Card.png, id=25, 249.93375pt x 240.9pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+<images/RFID_in_PNC_Card.png, id=24, 249.93375pt x 240.9pt>
 File: images/RFID_in_PNC_Card.png Graphic file (type png)
 
 <use images/RFID_in_PNC_Card.png>
-Package pdftex.def Info: images/RFID_in_PNC_Card.png used on input line 210.
+Package pdftex.def Info: images/RFID_in_PNC_Card.png used on input line 209.
 (pdftex.def)             Requested size: 151.20154pt x 145.73943pt.
 
-<images/RFID_chip_location.png, id=27, 724.20563pt x 475.7775pt>
+<images/RFID_chip_location.png, id=26, 724.20563pt x 475.7775pt>
 File: images/RFID_chip_location.png Graphic file (type png)
 
 <use images/RFID_chip_location.png>
-Package pdftex.def Info: images/RFID_chip_location.png used on input line 217.
+Package pdftex.def Info: images/RFID_chip_location.png used on input line 216.
 (pdftex.def)             Requested size: 201.59692pt x 132.43999pt.
 
 Underfull \vbox (badness 1715) has occurred while \output is active []
 
  [4 <./images/RFID_in_PNC_Card.png> <./images/RFID_chip_location.png>]
-Overfull \hbox (2.19438pt too wide) in paragraph at lines 231--232
+Overfull \hbox (2.19438pt too wide) in paragraph at lines 230--231
 \T1/aer/m/n/9 are cur-rently im-ple-mented in other do-mains. Al-though RFID
  []
 
@@ -365,7 +354,7 @@ Overfull \hbox (2.19438pt too wide) in paragraph at lines 231--232
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
 
-Overfull \hbox (3.8133pt too wide) in paragraph at lines 241--242
+Overfull \hbox (3.8133pt too wide) in paragraph at lines 240--241
 \T1/aer/m/n/9 tion-al-ity. De-vices im-ple-ment-ing NFC for no clear applicatio
 n-
  []
@@ -458,7 +447,6 @@ l.69   \url
            {http://googleblog.blogspot.com/2011/05/coming-soon-make-your-pho...
 
 ? 
-[6]
 ! Undefined control sequence.
 l.76   \url
            {http://www.11alive.com/news/article/198946/3/Electronic-pickpock...
@@ -537,6 +525,10 @@ l.133   \url
             {http://thesmartphonechamp.com/second-major-security-flaw-found-...
 
 ? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 ! Undefined control sequence.
 l.152   \url
             {http://www.ebay.com/itm/BLACK-Epik-Case-Cover-Gel-Skinfr-Samsun...
@@ -603,10 +595,6 @@ l.167   \url
 Overfull \hbox (47.33765pt too wide) in paragraph at lines 163--170
 \T1/aer/m/n/9 http://www.forbes.com/sites/andygreenberg/2012/01/30/hackers- 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 ! Undefined control sequence.
 l.180   \url
@@ -692,6 +680,10 @@ Overfull \hbox (138.53517pt too wide) in paragraph at lines 217--222
 allet[]in=; February\OT1/cmr/m/n/9 2012\OML/cmm/m/it/9 :TheRegister:[]$  
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 ! Undefined control sequence.
 l.227   \url
             {http://ridrix.wordpress.com/2009/09/20/tkort-public-transportat...
@@ -702,36 +694,79 @@ l.240   \url
             {http://venturebeat.com/2010/07/28/android-wallpaper-app-that-st...
 
 ? 
-) [7] [8
+)
 
-] (./adhawk-mobilepickpocketing.aux) ) 
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \]
+        
+? 
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.268 \]
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \]
+        
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.268 \]
+        
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.268 \]
+        
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.268 \]
+        
+? 
+[7] (./adhawk-mobilepickpocketing.aux) ) 
 Here is how much of TeX's memory you used:
- 2822 strings out of 493629
- 36597 string characters out of 3143323
- 99133 words of memory out of 3000000
- 6041 multiletter control sequences out of 15000+200000
- 55614 words of font info for 77 fonts, out of 3000000 for 9000
+ 2817 strings out of 493629
+ 36564 string characters out of 3143323
+ 98133 words of memory out of 3000000
+ 6040 multiletter control sequences out of 15000+200000
+ 52325 words of font info for 73 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 41i,8n,26p,1483b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts
-/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
-.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.p
-fb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on adhawk-mobilepickpocketing.pdf (8 pages, 381480 bytes).
+ 41i,8n,26p,1486b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on adhawk-mobilepickpocketing.pdf (7 pages, 364985 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
