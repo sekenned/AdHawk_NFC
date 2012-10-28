@@ -1,0 +1,305 @@
+\begin{thebibliography}{10}
+
+\bibitem{amazon-android-appstore}
+Amazon appstore for {Android}.
+\newblock \url{http://www.amazon.com/b?node=2350149011}.
+\newblock Amazon, [Online; accessed 7-May-2012].
+
+\bibitem{android-developers-advanced-nfc}
+Android developers: Advanced nfc.
+\newblock
+  \url{https://developer.android.com/guide/topics/nfc/advanced-nfc.html}.
+\newblock Google; [Online; accessed 7-May-2012].
+
+\bibitem{android-developers-package-android.nfc}
+Android developers: android.nfc package.
+\newblock
+  \url{https://developer.android.com/reference/android/nfc/package-summary.html}.
+\newblock Google.
+
+\bibitem{android-developers-nfc-basics}
+Android developers: Nfc basics.
+\newblock \url{http://developer.android.com/guide/topics/nfc/nfc.html}.
+\newblock Google; [Online; accessed 7-May-2012].
+
+\bibitem{android-developers-samplecode-nfcdemo}
+Android developers: Sample code: Nfcdemo.
+\newblock
+  \url{http://developer.android.com/resources/samples/NFCDemo/index.html}.
+\newblock Google; [Online; accessed 7-May-2012].
+
+\bibitem{android-developers-beam}
+Beaming ndef messages to other devices.
+\newblock \url{https://developer.android.com/guide/topics/nfc/nfc.html#p2p}.
+\newblock Google; [Online; accessed 7-May-2012].
+
+\bibitem{google-play-idstronghold}
+Google play: Electronic pickpocket rfid.
+\newblock
+  \url{https://play.google.com/store/apps/details?id=com.idstronghold.CCReaderMkt&hl=en}.
+\newblock Identity Stronghold; Google; [Online; accessed 7-May-2012].
+
+\bibitem{google-wallet-security-1}
+Google wallet: How it works: Security.
+\newblock \url{http://www.google.com/wallet/how-it-works-security.html}.
+\newblock Google; [Online; accessed 7-May-2012].
+
+\bibitem{idstronghold-1}
+Identity stronghold.
+\newblock \url{http://www.idstronghold.com/}.
+\newblock [Online; accessed 7-May-2012].
+
+\bibitem{lookout-search-chinese}
+The lookout blog: Search results for: chinese data phone.
+\newblock \url{http://blog.mylookout.com/?s=chinese+data+phone}.
+\newblock Lookout Mobile Security, [Online; accessed 7-May-2012].
+
+\bibitem{opennfc-1}
+Open nfc: Developer site: Features.
+\newblock \url{http://open-nfc.org/wp/home/features/}.
+\newblock Open Source, Sponsored by Inside Secure, [Online; accessed
+  7-May-2012].
+
+\bibitem{pittcard-1}
+University of pittsburgh: Panther card.
+\newblock \url{http://www.pc.pitt.edu/card/services.html}.
+\newblock [Online; accessed 7-May-2012].
+
+\bibitem{ecma-nfc-adoption}
+Ecma welcomes iso/iec adoption of nfc standard for short range wireless
+  communication.
+\newblock \url{http://www.ecma-international.org/news/Ecma-340-NFCIP-1.htm},
+  December 2003.
+\newblock Ecma International; press release.
+
+\bibitem{smartcardaliance-more-visa-paywave}
+New visa paywave issuers and merchants sign up for faster, more convenient
+  payments.
+\newblock
+  \url{http://www.smartcardalliance.org/articles/2007/09/20/new-visa-paywave-issuers-and-merchants-sign-up-for-faster-more-convenient-payments},
+  September 2007.
+\newblock Smart Card Aliance.
+
+\bibitem{google-blog-1}
+Coming soon: make your phone your wallet.
+\newblock
+  \url{http://googleblog.blogspot.com/2011/05/coming-soon-make-your-phone-your-wallet.html},
+  May 2011.
+\newblock Google; Google: Official Blog.
+
+\bibitem{informationweek-curated-apps}
+Curated app markets could help android security.
+\newblock \url{http://www.informationweek.com/news/security/mobile/231300342},
+  August 2011.
+\newblock InformationWeek, [Online; accessed 7-May-2012].
+
+\bibitem{11alive-electronic-pickpocket-apps}
+Electronic pickpocket apps.
+\newblock
+  \url{http://www.11alive.com/news/article/198946/3/Electronic-pickpocket-apps-},
+  July 2011.
+\newblock WXIA-TV Atlanta, Gannett.
+
+\bibitem{farebot-1}
+Farebot: Read data from public transit cards with your nfc-equipped android
+  phone.
+\newblock \url{http://codebutler.com/announcing-farebot-for-android}, February
+  2011.
+\newblock posterous SPACES.
+
+\bibitem{nfcworld-nfc-additions-android-2.3.3}
+Google adds more nfc features with android 2.3.3.
+\newblock
+  \url{http://www.nfcworld.com/2011/02/09/35866/google-adds-more-nfc-features-with-android-2-3-3},
+  February 2011.
+\newblock Near Field Communications World.
+
+\bibitem{electronista-mcafee-malware-surge}
+Mcafee: Android malware surges 76\%, iphone untouched.
+\newblock
+  \url{http://www.electronista.com/articles/11/08/23/mcafee.shows.android.facing.huge.spike.in.malware},
+  August 2011.
+\newblock electronista.
+
+\bibitem{list-of-nfc-phones}
+A definitive list of nfc phones.
+\newblock \url{http://www.nfcworld.com/nfc-phones-list/}, May 2012.
+\newblock Near Field Communications World.
+
+\bibitem{esecurityplanet-google-wallet-hacked}
+Google wallet hacked.
+\newblock
+  \url{http://www.esecurityplanet.com/mobile-security/google-wallet-hacked.html},
+  February 2012.
+\newblock eSecurity Planet.
+
+\bibitem{emv-upgrade}
+Mastercard aligns with visa’s u.s. emv migration plans by publishing its own
+  emv implementation roadmap.
+\newblock
+  \url{http://blog.level2kernel.com/mastercard-us-emv-migration-roadmap/},
+  February 2012.
+\newblock EmvX Blog; [Online; accessed 7-May-2012].
+
+\bibitem{upitt-rfid-switch}
+No more virtual pickpocketing of credit cards, thanks to new tap and pay
+  technology.
+\newblock
+  \url{http://www.eurekalert.org/pub_releases/2012-02/uop-nmv021712.php},
+  February 2012.
+\newblock EurekAlert!
+
+\bibitem{smartphonechamp-second-major-flaw-google-wallet}
+Second major security flaw found in google wallet….rooted or not no one is
+  safe (video).
+\newblock
+  \url{http://thesmartphonechamp.com/second-major-security-flaw-found-in-google-wallet-rooted-or-not-no-one-is-safe-video/},
+  February 2012.
+\newblock The Smartphone Champ.
+
+\bibitem{ieee-beacon-mobileos-review}
+{\sc Asthana, A.}
+\newblock Ios 5, android 4.0 and windows 8 – a review.
+\newblock In {\em IEEE Beacon\/} (March 2012), vol.~31, p.~33.
+
+\bibitem{droiddreamlight}
+{\sc Balanza, M., Alintanahin, K., Abendan, O., Dizon, J., and Caraig, B.}
+\newblock Droiddreamlight lurks behind legitimate android apps.
+\newblock In {\em Malicious and Unwanted Software (MALWARE), 2011 6th
+  International Conference on\/} (oct. 2011), pp.~73 --78.
+
+\bibitem{eweek-google-augments-nfc-api}
+{\sc Boulton, C.}
+\newblock Google augments nfc api in android 2.3.
+\newblock
+  \url{http://www.eweek.com/c/a/Application-Development/Google-Refreshes-NFC-ReaderWriter-API-in-Android-23-739296/},
+  February 2011.
+\newblock eWeek.
+
+\bibitem{ebay-epik-nexus-s-case}
+{\sc dcmugen88}.
+\newblock Black epik case cover gel skinfr samsung nexus s i9020.
+\newblock
+  \url{http://www.ebay.com/itm/BLACK-Epik-Case-Cover-Gel-Skinfr-Samsung-Nexus-S-I9020-/250784951850?pt=PDA_Accessories&hash=item3a63f2ae2a#ht_1996wt_847}.
+\newblock ebay, [Online; accessed 7-May-2012].
+
+\bibitem{mifare-classic-detection-android}
+{\sc Dominic}.
+\newblock Mifare classic detection on android.
+\newblock
+  \url{http://mifareclassicdetectiononandroid.blogspot.com/2011/04/reading-mifare-classic-1k-from-android.html},
+  April 2011.
+
+\bibitem{forbes-1}
+{\sc Greenberg, A.}
+\newblock Hacker's demo shows how easiy credit cards can be read through
+  clothes and wallets.
+\newblock
+  \url{http://www.forbes.com/sites/andygreenberg/2012/01/30/hackers-demo-shows-how-easily-credit-cards-can-be-read-through-clothes-and-wallets/},
+  January 2012.
+\newblock Forbes.
+
+\bibitem{eavesdropping-attacks-hfrfid-tokens}
+{\sc Hancke, G.}
+\newblock Eavesdropping attacks on high-frequency rfid tokens.
+
+\bibitem{ebay-fluffy-nexus-s-case}
+{\sc johnsonphone}.
+\newblock Ash ( flannelette lint card holder ) case pouch bag for samsung nexus
+  s i9020.
+\newblock
+  \url{http://www.ebay.com/itm/Ash-Flannelette-Lint-Card-Holder-Case-Pouch-Bag-For-Samsung-Nexus-S-I9020-/320805691237?pt=PDA_Accessories&hash=item4ab1825f65#ht_2658wt_1038}.
+\newblock ebay, [Online; accessed 7-May-2012].
+
+\bibitem{security-privacy-epassports}
+{\sc Juels, A., Molnar, D., and Wagner, D.}
+\newblock Security and privacy issues in e-passports.
+\newblock In {\em Proceedings of the First International Conference on Security
+  and Privacy for Emerging Areas in Communications Networks\/} (Washington, DC,
+  USA, 2005), SECURECOMM '05, IEEE Computer Society, pp.~74--88.
+
+\bibitem{lookout-wallpaper-malware}
+{\sc kevin}.
+\newblock The lookout blog: Update and clarification of analysis of mobile
+  applications at blackhat 2010.
+\newblock
+  \url{http://blog.mylookout.com/blog/2010/07/29/mobile-application-analysis-blackhat/},
+  July 2010.
+\newblock Lookout Mobile Security.
+
+\bibitem{picking-virtual-pockets}
+{\sc Kfir, Z., and Wool, A.}
+\newblock Picking virtual pockets using relay attacks on contactless smartcard.
+\newblock In {\em Proceedings of the First International Conference on Security
+  and Privacy for Emerging Areas in Communications Networks\/} (Washington, DC,
+  USA, 2005), SECURECOMM '05, IEEE Computer Society, pp.~47--58.
+
+\bibitem{Kirschenbaum06howto}
+{\sc Kirschenbaum, I., and Wool, A.}
+\newblock How to build a low-cost, extended-range rfid skimmer.
+\newblock In {\em In Proceedings of the 15th USENIX Security Symposium\/}
+  (2006), pp.~43--57.
+
+\bibitem{bt-hacking-nfc-ccs}
+{\sc Lifchitz, R.}
+\newblock Hacking the nfc credit cards for fun and debit.
+\newblock
+  \url{http://2012.hackitoergosum.org/blog/wp-content/uploads/2012/04/HES-2012-rlifchitz-contactless-payments-insecurity.pdf},
+  April 2012.
+\newblock Hackito Ergo Sum 2012.
+
+\bibitem{defcon-hang-yourself-android}
+{\sc O'Neil, Y.~T., and Chin, E.}
+\newblock Seven ways to hang yourself with google android.
+\newblock
+  \url{https://media.defcon.org/dc-19/presentations/O%27Neil-Chin/DEFCON-19-O%27Neil-Chin-Google-Android.pdf}.
+\newblock [Online; accessed 7-May-2012].
+
+\bibitem{threat-analysis-of-rfid-passports}
+{\sc Ramos, A., Scott, W., Scott, W., Lloyd, D., O'Leary, K., and Waldo, J.}
+\newblock A threat analysis of rfid passports.
+\newblock {\em Commun. ACM 52}, 12 (December 2009), 38--42.
+
+\bibitem{google-wallet-pin-cracked}
+{\sc Ray, B.}
+\newblock Google wallet pin security cracked in seconds.
+\newblock \url{http://www.theregister.co.uk/2012/02/09/google_wallet_pin/},
+  February 2012.
+\newblock The Register.
+
+\bibitem{public-transport-card-exploits}
+{\sc ridrix}.
+\newblock t:kort public transportation card explorations.
+\newblock
+  \url{http://ridrix.wordpress.com/2009/09/20/tkort-public-transportation-card-explorations/},
+  September 2009.
+
+\bibitem{ds-nfc-enabling-technology}
+{\sc Sammarco, A.~J.}
+\newblock Nfc enabling technology.
+\newblock Tech. rep., Device Solutions Inc, November 2010.
+
+\bibitem{venturebeat-malicious-wallpaper}
+{\sc Takahashi, D.}
+\newblock Updated: Android wallpaper app that takes your data was downloaded by
+  millions.
+\newblock
+  \url{http://venturebeat.com/2010/07/28/android-wallpaper-app-that-steals-your-data-was-downloaded-by-millions/},
+  July 2010.
+\newblock Venture Beat.
+
+\bibitem{droiddudes-reverse-android-apk}
+{\sc Watling, D.}
+\newblock Howto: Extract apk into readable java source code and xml files.
+\newblock
+  \url{http://droiddudes.com/2011/05/08/howto-extract-apk-into-readable-java-source-code-and-xml-files/},
+  May 2011.
+\newblock DroidDudes, [Online; accessed 7-May-2012].
+
+\bibitem{are-cell-phones-safe}
+{\sc Wolfe, H.}
+\newblock Are cell phones safe?
+\newblock In {\em Risk Analysis VII \& Brownfields V}, WIT Transactions on
+  Information and Communication Technologies Series. WIT Press, 2010.
+
+\end{thebibliography}

@@ -1,0 +1,772 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  7 JUN 2012 01:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**adhawk-mobilepickpocketing.tex
+(./adhawk-mobilepickpocketing.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(./sig-alternate.cls
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+Document Class 'sig-alternate' <23rd. May '12>. Modified by G.K.M. Tobin/Gerry 
+Murray
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
+v. 30 '99>
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1211.
+\bibindent=\dimen122
+\colcntr=\count108
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(./adhawk-mobilepickpocketing.aux)
+\openout1 = `adhawk-mobilepickpocketing.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen124
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks37
+) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 125.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 126.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Overfull \hbox (9.73953pt too wide) in paragraph at lines 153--153
+[]\secfnt BUILDING A MO-BILE PICK-POCK-ET-ING
+ []
+
+[2]
+Overfull \hbox (5.87393pt too wide) in paragraph at lines 178--179
+[]\T1/aer/m/n/9 For ap-pli-ca-tion de-vel-op-ment, we used 2011 Sam-sung Google
+
+ []
+
+
+Overfull \hbox (5.4164pt too wide) in paragraph at lines 183--184
+[]\T1/aer/m/n/9 Despite the ex-hor-ta-tions of se-cu-rity com-pa-nies sell-ing 
+RFID
+ []
+
+
+Overfull \hbox (7.58315pt too wide) in paragraph at lines 185--186
+\T1/aer/m/n/9 un-der con-trolled cir-cum-stances), what sort of pro-tec-tion wo
+uld
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+<images/RFID_in_PNC_Card.png, id=24, 249.93375pt x 240.9pt>
+File: images/RFID_in_PNC_Card.png Graphic file (type png)
+
+<use images/RFID_in_PNC_Card.png>
+Package pdftex.def Info: images/RFID_in_PNC_Card.png used on input line 209.
+(pdftex.def)             Requested size: 151.20154pt x 145.73943pt.
+
+<images/RFID_chip_location.png, id=26, 724.20563pt x 475.7775pt>
+File: images/RFID_chip_location.png Graphic file (type png)
+
+<use images/RFID_chip_location.png>
+Package pdftex.def Info: images/RFID_chip_location.png used on input line 216.
+(pdftex.def)             Requested size: 201.59692pt x 132.43999pt.
+
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+ [4 <./images/RFID_in_PNC_Card.png> <./images/RFID_chip_location.png>]
+Overfull \hbox (2.19438pt too wide) in paragraph at lines 230--231
+\T1/aer/m/n/9 are cur-rently im-ple-mented in other do-mains. Al-though RFID
+ []
+
+
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+
+Overfull \hbox (3.8133pt too wide) in paragraph at lines 240--241
+\T1/aer/m/n/9 tion-al-ity. De-vices im-ple-ment-ing NFC for no clear applicatio
+n-
+ []
+
+[5] (./adhawk-mobilepickpocketing.bbl
+! Undefined control sequence.
+l.5 \newblock \url
+                  {http://www.amazon.com/b?node=2350149011}.
+? 
+! Undefined control sequence.
+l.11   \url
+           {https://developer.android.com/guide/topics/nfc/advanced-nfc.html}.
+? 
+
+Overfull \hbox (18.15053pt too wide) in paragraph at lines 9--13
+\T1/aer/m/n/9 https://developer.android.com/guide/topics/nfc/advanced- 
+ []
+
+! Undefined control sequence.
+l.16 \newblock \url
+                   {http://developer.android.com/guide/topics/nfc/nfc.html}.
+? 
+
+Overfull \hbox (10.14981pt too wide) in paragraph at lines 15--18
+\T1/aer/m/n/9 http://developer.android.com/guide/topics/nfc/nfc.html. 
+ []
+
+! Undefined control sequence.
+l.21 \newblock \url
+                   {https://developer.android.com/guide/topics/nfc/nfc.html#...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.21 ...per.android.com/guide/topics/nfc/nfc.html#
+                                                  p2p}.
+? 
+
+Overfull \hbox (28.67137pt too wide) in paragraph at lines 20--23
+\T1/aer/m/n/9 https://developer.android.com/guide/topics/nfc/nfc.htmlp2p. 
+ []
+
+! Undefined control sequence.
+l.27   \url
+           {https://play.google.com/store/apps/details?id=com.idstronghold.C...
+
+? 
+! Misplaced alignment tab character &.
+l.27 ...s/details?id=com.idstronghold.CCReaderMkt&
+                                                  hl=en}.
+? 
+
+Overfull \hbox (129.34413pt too wide) in paragraph at lines 25--29
+\T1/aer/m/n/9 https://play.google.com/store/apps/details?id=com.idstronghold.CC
+ReaderMkthl=en. 
+ []
+
+! Undefined control sequence.
+l.32 \newblock \url
+                   {http://www.google.com/wallet/how-it-works-security.html}.
+? 
+! Undefined control sequence.
+l.37 \newblock \url
+                   {http://www.idstronghold.com/}.
+? 
+! Undefined control sequence.
+l.42 \newblock \url
+                   {http://open-nfc.org/wp/home/features/}.
+? 
+! Undefined control sequence.
+l.48 \newblock \url
+                   {http://www.pc.pitt.edu/card/services.html}.
+? 
+! Undefined control sequence.
+l.54 \newblock \url
+                   {http://www.ecma-international.org/news/Ecma-340-NFCIP-1....
+
+? 
+! Undefined control sequence.
+l.62   \url
+           {http://www.smartcardalliance.org/articles/2007/09/20/new-visa-pa...
+
+? 
+
+Overfull \hbox (24.6222pt too wide) in paragraph at lines 59--65
+\T1/aer/m/n/9 http://www.smartcardalliance.org/articles/2007/09/20/new- 
+ []
+
+! Undefined control sequence.
+l.69   \url
+           {http://googleblog.blogspot.com/2011/05/coming-soon-make-your-pho...
+
+? 
+! Undefined control sequence.
+l.76   \url
+           {http://www.11alive.com/news/article/198946/3/Electronic-pickpock...
+
+? 
+
+Overfull \hbox (21.07635pt too wide) in paragraph at lines 74--79
+\T1/aer/m/n/9 http://www.11alive.com/news/article/198946/3/Electronic- 
+ []
+
+! Undefined control sequence.
+l.83 \newblock \url
+                   {http://codebutler.com/announcing-farebot-for-android}, F...
+
+? 
+! Undefined control sequence.
+l.90   \url
+           {http://www.nfcworld.com/2011/02/09/35866/google-adds-more-nfc-fe...
+
+? 
+! Undefined control sequence.
+l.97   \url
+           {http://www.electronista.com/articles/11/08/23/mcafee.shows.andro...
+
+? 
+
+Overfull \hbox (181.6061pt too wide) in paragraph at lines 95--100
+\T1/aer/m/n/9 http://www.electronista.com/articles/11/08/23/mcafee.shows.androi
+d.facing.huge.spike.in.malware, 
+ []
+
+! Undefined control sequence.
+l.103 \newblock \url
+                    {http://www.nfcworld.com/nfc-phones-list/}, May 2012.
+? 
+! Undefined control sequence.
+l.109   \url
+            {http://www.esecurityplanet.com/mobile-security/google-wallet-ha...
+
+? 
+! Undefined control sequence.
+l.117   \url
+            {http://blog.level2kernel.com/mastercard-us-emv-migration-roadma...
+
+? 
+! Undefined control sequence.
+l.125   \url
+            {http://www.eurekalert.org/pub_releases/2012-02/uop-nmv021712.php},
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125   \url{http://www.eurekalert.org/pub_
+                                           releases/2012-02/uop-nmv021712.php},
+
+? 
+! Extra }, or forgotten $.
+l.125 ...g/pub_releases/2012-02/uop-nmv021712.php}
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.128 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.128 
+      
+? 
+! Undefined control sequence.
+l.133   \url
+            {http://thesmartphonechamp.com/second-major-security-flaw-found-...
+
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+! Undefined control sequence.
+l.152   \url
+            {http://www.ebay.com/itm/BLACK-Epik-Case-Cover-Gel-Skinfr-Samsun...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.152 ...msung-Nexus-S-I9020-/250784951850?pt=PDA_
+                                                  Accessories&hash=item3a63f...
+
+? 
+! Misplaced alignment tab character &.
+l.152 ...S-I9020-/250784951850?pt=PDA_Accessories&
+                                                  hash=item3a63f2ae2a#ht_199...
+
+? 
+! You can't use `macro parameter character #' in math mode.
+l.152 ...0?pt=PDA_Accessories&hash=item3a63f2ae2a#
+                                                  ht_1996wt_847}.
+? 
+! Extra }, or forgotten $.
+l.152 ...sories&hash=item3a63f2ae2a#ht_1996wt_847}
+                                                  .
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.154 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.154 
+      
+? 
+
+Overfull \hbox (2.7278pt too wide) in paragraph at lines 149--154
+\OML/cmm/m/it/9 item\OT1/cmr/m/n/9 3\OML/cmm/m/it/9 a\OT1/cmr/m/n/9 63\OML/cmm/
+m/it/9 f\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 ae\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 aht[]
+\OT1/cmr/m/n/9 996\OML/cmm/m/it/9 wt[]\OT1/cmr/m/n/9 47\OML/cmm/m/it/9 :ebay; \
+OT1/cmr/m/n/9 [\OML/cmm/m/it/9 Online\OT1/cmr/m/n/9 ; \OML/cmm/m/it/9 accessed\
+OT1/cmr/m/n/9 7 \OMS/cmsy/m/n/9 ^^@ 
+ []
+
+! Undefined control sequence.
+l.159   \url
+            {http://mifareclassicdetectiononandroid.blogspot.com/2011/04/rea...
+
+? 
+
+Overfull \hbox (66.1827pt too wide) in paragraph at lines 156--161
+\T1/aer/m/n/9 http://mifareclassicdetectiononandroid.blogspot.com/2011/04/readi
+ng- 
+ []
+
+! Undefined control sequence.
+l.167   \url
+            {http://www.forbes.com/sites/andygreenberg/2012/01/30/hackers-de...
+
+? 
+
+Overfull \hbox (47.33765pt too wide) in paragraph at lines 163--170
+\T1/aer/m/n/9 http://www.forbes.com/sites/andygreenberg/2012/01/30/hackers- 
+ []
+
+! Undefined control sequence.
+l.180   \url
+            {http://www.ebay.com/itm/Ash-Flannelette-Lint-Card-Holder-Case-P...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.180 ...msung-Nexus-S-I9020-/320805691237?pt=PDA_
+                                                  Accessories&hash=item4ab18...
+
+? 
+! Misplaced alignment tab character &.
+l.180 ...S-I9020-/320805691237?pt=PDA_Accessories&
+                                                  hash=item4ab1825f65#ht_265...
+
+? 
+! You can't use `macro parameter character #' in math mode.
+l.180 ...7?pt=PDA_Accessories&hash=item4ab1825f65#
+                                                  ht_2658wt_1038}.
+? 
+! Extra }, or forgotten $.
+l.180 ...ories&hash=item4ab1825f65#ht_2658wt_1038}
+                                                  .
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.182 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.182 
+      
+? 
+
+Overfull \hbox (6.46562pt too wide) in paragraph at lines 176--182
+\OML/cmm/m/it/9 item\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 ab\OT1/cmr/m/n/9 1825\OML/c
+mm/m/it/9 f\OT1/cmr/m/n/9 65\OML/cmm/m/it/9 ht[]\OT1/cmr/m/n/9 658\OML/cmm/m/it
+/9 wt[]\OT1/cmr/m/n/9 038\OML/cmm/m/it/9 :ebay; \OT1/cmr/m/n/9 [\OML/cmm/m/it/9
+ Online\OT1/cmr/m/n/9 ; \OML/cmm/m/it/9 accessed\OT1/cmr/m/n/9 7 \OMS/cmsy/m/n/
+9 ^^@ 
+ []
+
+! Undefined control sequence.
+l.207   \url
+            {http://2012.hackitoergosum.org/blog/wp-content/uploads/2012/04/...
+
+? 
+! Undefined control sequence.
+l.219 \newblock \url
+                    {http://www.theregister.co.uk/2012/02/09/google_wallet_p...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 .../www.theregister.co.uk/2012/02/09/google_
+                                                  wallet_pin/},
+? 
+! Extra }, or forgotten $.
+l.219 ...ster.co.uk/2012/02/09/google_wallet_pin/}
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.222 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.222 
+      
+? 
+
+Overfull \hbox (138.53517pt too wide) in paragraph at lines 217--222
+\T1/aer/m/n/9 http://www.theregister.co.uk/2012/02/09/google$[]\OML/cmm/m/it/9 
+allet[]in=; February\OT1/cmr/m/n/9 2012\OML/cmm/m/it/9 :TheRegister:[]$  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+l.227   \url
+            {http://ridrix.wordpress.com/2009/09/20/tkort-public-transportat...
+
+? 
+! Undefined control sequence.
+l.240   \url
+            {http://venturebeat.com/2010/07/28/android-wallpaper-app-that-st...
+
+? 
+)
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \]
+        
+? 
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.268 \]
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \]
+        
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.268 \]
+        
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.268 \]
+        
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.268 \]
+        
+? 
+[7] (./adhawk-mobilepickpocketing.aux) ) 
+Here is how much of TeX's memory you used:
+ 2817 strings out of 493629
+ 36564 string characters out of 3143323
+ 98133 words of memory out of 3000000
+ 6040 multiletter control sequences out of 15000+200000
+ 52325 words of font info for 73 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 41i,8n,26p,1486b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on adhawk-mobilepickpocketing.pdf (7 pages, 364985 bytes).
+PDF statistics:
+ 90 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

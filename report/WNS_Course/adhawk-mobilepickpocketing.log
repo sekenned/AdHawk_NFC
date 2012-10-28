@@ -1,0 +1,761 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.2)  23 MAY 2012 12:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**adhawk-mobilepickpocketing.tex
+(./adhawk-mobilepickpocketing.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen125
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen126
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen127
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks19
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks20
+\eqnshift@=\dimen128
+\alignsep@=\dimen129
+\tagshift@=\dimen130
+\tagwidth@=\dimen131
+\totwidth@=\dimen132
+\lineht@=\dimen133
+\@envbody=\toks21
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+
+Package epstopdf Warning: No graphics package `graphic{s,x}' loaded.
+
+)) (/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count106
+))
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2011/08/18 v3.2b Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2011/08/18 v1.3b caption3 kernel (AR)
+\captionmargin=\dimen136
+\captionmargin@=\dimen137
+\captionwidth=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \begin {center}{\normalfont \footnotesize #1}\\{\normal
+font \footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@
+IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {
+#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \
+footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent 
+\unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfon
+t \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont 
+\footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
+\c@ContinuedFloat=\count107
+)
+\c@KVtest=\count108
+\sf@farskip=\skip47
+\sf@captopadj=\dimen142
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count109
+\c@subfigure@save=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@subtable@save=\count113
+\c@lotdepth=\count114
+\sf@top=\skip50
+\sf@bottom=\skip51
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count115
+\lst@gtempboxa=\box29
+\lst@token=\toks23
+\lst@length=\count116
+\lst@currlwidth=\dimen143
+\lst@column=\count117
+\lst@pos=\count118
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count119
+\lst@lineno=\count120
+\lst@maxwidth=\dimen146
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count121
+\lst@skipnumbers=\count122
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks24
+\SOUL@lasttoken=\toks25
+\SOUL@cmds=\toks26
+\SOUL@buffer=\toks27
+\SOUL@token=\toks28
+\SOUL@spaceskip=\skip52
+\SOUL@ttwidth=\dimen147
+\SOUL@uldp=\dimen148
+\SOUL@ulht=\dimen149
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box31
+\UL@hyphenbox=\box32
+\UL@skip=\skip53
+\UL@hook=\toks29
+\UL@height=\dimen150
+\UL@pe=\count123
+\UL@pixel=\dimen151
+\ULC@box=\box33
+Package: ulem 2011/03/18
+\ULdepth=\dimen152
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(./adhawk-mobilepickpocketing.aux)
+\openout1 = `adhawk-mobilepickpocketing.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=12.0pt
+* \footskip=28.90755pt
+* \marginparwidth=20.0pt
+* \marginparsep=10.0pt
+* \columnsep=12.0pt
+* \skip\footins=10.79993pt plus 4.79993pt minus 2.39996pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen153
+\scratchbox=\box34
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen154
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks33
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package 1.2 or 1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count130
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 84.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+ [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2] [3] [4]
+<images/RFID_in_PNC_Card.png, id=18, 249.93375pt x 240.9pt>
+File: images/RFID_in_PNC_Card.png Graphic file (type png)
+
+<use images/RFID_in_PNC_Card.png>
+Package pdftex.def Info: images/RFID_in_PNC_Card.png used on input line 163.
+(pdftex.def)             Requested size: 140.92793pt x 135.83673pt.
+
+<images/RFID_chip_location.png, id=20, 724.20563pt x 475.7775pt>
+File: images/RFID_chip_location.png Graphic file (type png)
+
+<use images/RFID_chip_location.png>
+Package pdftex.def Info: images/RFID_chip_location.png used on input line 170.
+(pdftex.def)             Requested size: 187.89914pt x 123.43787pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images/RFID_in_PNC_Card.png> <./images/RFID_chip_location.png>]
+Underfull \hbox (badness 1540) in paragraph at lines 194--195
+\OT1/ptm/m/n/10 use NFC func-tion-al-ity. De-vices im-ple-ment-ing NFC
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 194--195
+\OT1/ptm/m/n/10 for no clear application-related pur-pose should be
+ []
+
+[6] (./adhawk-mobilepickpocketing.bbl
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+\OT1/ptm/m/n/8 android . com / reference / android / nfc / package -[] summary 
+. html$.
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
+\OT1/ptm/m/n/8 store / apps / details ? id = com . idstronghold . CCReaderMkt&h
+l = en$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
+\OT1/ptm/m/n/8 articles / 2007 / 09 / 20 / new -[] visa -[] paywave -[] issuers
+ -[] and -[] merchants -[]
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 84--89
+[]\OT1/ptm/m/n/8 Coming soon: make your phone your wal-let.  $http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--89
+\OT1/ptm/m/n/8 / / googleblog . blogspot . com / 2011 / 05 / coming -[] soon -[
+] make -[] your -[]
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 91--95
+\OT1/ptm/m/n/8 informationweek . com / news / security / mobile / 231300342$, A
+u-gust
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 104--109
+\OT1/ptm/m/n/8 equipped an-droid phone.  $http : / / codebutler . com / announc
+ing -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+[]\OT1/ptm/m/n/8 Google adds more nfc fea-tures with an-droid 2.3.3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+\OT1/ptm/m/n/8 http : / / www . nfcworld . com / 2011 / 02 / 09 / 35866 / googl
+e -[] adds -[]
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 118--123
+[]\OT1/ptm/m/n/8 Mcafee: An-droid mal-ware surges 76%, iphone un-touched.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
+\OT1/ptm/m/n/8 http : / / www . electronista . com / articles / 11 / 08 / 23 / 
+mcafee . shows .
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 2626) in paragraph at lines 137--143
+\OT1/ptm/m/n/8 pub-lish-ing its own emv im-ple-men-ta-tion roadmap.  $http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
+\OT1/ptm/m/n/8 / / blog . level2kernel . com / mastercard -[] us -[] emv -[] mi
+gration -[] roadmap/$,
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--159
+\OT1/ptm/m/n/8 major -[] security -[] ^^Maw -[] found -[] in -[] google -[] wal
+let -[] rooted -[] or -[] not -[] no -[]
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
+\OT1/ptm/m/n/8 http : / / www . eweek . com / c / a / Application -[] Developme
+nt / Google -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
+\OT1/ptm/m/n/8 Refreshes -[] NFC -[] ReaderWriter -[] API -[] in -[] Android -[
+] 23 -[] 739296/$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--185
+\OT1/ptm/m/n/8 Cover -[] Gel -[] Skinfr -[] Samsung -[] Nexus -[] S -[] I9020 -
+[] /250784951850 ? pt =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
+[]\OT1/ptm/m/sc/8 Dominic\OT1/ptm/m/n/8 .  Mi-fare clas-sic de-tec-tion on an-d
+roid.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
+\OT1/ptm/m/n/8 http : / / mifareclassicdetectiononandroid . blogspot . com / 20
+11 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--201
+[]\OT1/ptm/m/sc/8 Greenberg, A.  \OT1/ptm/m/n/8 Hacker's demo shows how easiy
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 194--201
+\OT1/ptm/m/n/8 credit cards can be read through clothes and wal-lets.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--201
+\OT1/ptm/m/n/8 http : / / www . forbes . com / sites / andygreenberg / 2012 / 0
+1 / 30 / hackers -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--201
+\OT1/ptm/m/n/8 demo -[] shows -[] how -[] easily -[] credit -[] cards -[] can -
+[] be -[] read -[] through -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
+\OT1/ptm/m/n/8 Flannelette -[] Lint -[] Card -[] Holder -[] Case -[] Pouch -[] 
+Bag -[] For -[] Samsung -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
+\OT1/ptm/m/n/8 Nexus -[] S -[] I9020 -[] /320805691237 ? pt = PDA[]Accessories&
+hash =
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 207--213
+\OT1/ptm/m/n/8 item4ab1825f65 # ht[]2658wt[]1038$.  ebay, [On-line; ac-cessed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--229
+[]\OT1/ptm/m/sc/8 kevin\OT1/ptm/m/n/8 .  The look-out blog: Up-date and clar-i-
+fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--229
+\OT1/ptm/m/n/8 of anal-y-sis of mo-bile ap-pli-ca-tions at black-hat 2010.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--229
+\OT1/ptm/m/n/8 http : / / blog . mylookout . com / blog / 2010 / 07 / 29 / mobi
+le -[] application -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--250
+\OT1/ptm/m/n/8 http : / / 2012 . hackitoergosum . org / blog / wp -[] content /
+ uploads / 2012 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--250
+\OT1/ptm/m/n/8 04 / HES -[] 2012 -[] rlifchitz -[] contactless -[] payments -[]
+ insecurity . pdf$,
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 252--257
+[]\OT1/ptm/m/sc/8 O'Neil, Y. T., and Chin, E.  \OT1/ptm/m/n/8 Seven ways to han
+g
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 252--257
+\OT1/ptm/m/n/8 your-self with google an-droid.  $https : / / media . defcon . o
+rg / dc -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--257
+\OT1/ptm/m/n/8 19 / presentations / O % 27Neil -[] Chin / DEFCON -[] 19 -[] O %
+ 27Neil -[]
+ []
+
+[8]
+Underfull \hbox (badness 5245) in paragraph at lines 271--276
+[]\OT1/ptm/m/sc/8 ridrix\OT1/ptm/m/n/8 .  t:kort pub-lic trans-porta-tion card 
+ex-plo-rations.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+\OT1/ptm/m/n/8 http : / / ridrix . wordpress . com / 2009 / 09 / 20 / tkort -[]
+ public -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--290
+[]\OT1/ptm/m/sc/8 Takahashi, D.  \OT1/ptm/m/n/8 Up-dated: An-droid wall-pa-per 
+app
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--290
+\OT1/ptm/m/n/8 that takes your data was down-loaded by mil-lions.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--290
+\OT1/ptm/m/n/8 http : / / venturebeat . com / 2010 / 07 / 28 / android -[] wall
+paper -[] app -[]
+ []
+
+) [9
+
+] (./adhawk-mobilepickpocketing.aux) ) 
+Here is how much of TeX's memory you used:
+ 6269 strings out of 493629
+ 96220 string characters out of 3143323
+ 181164 words of memory out of 3000000
+ 9470 multiletter control sequences out of 15000+200000
+ 39670 words of font info for 83 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 44i,7n,42p,1483b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on adhawk-mobilepickpocketing.pdf (9 pages, 248290 bytes).
+PDF statistics:
+ 52 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

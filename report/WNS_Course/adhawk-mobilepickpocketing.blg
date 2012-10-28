@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: adhawk-mobilepickpocketing.aux
+The style file: acm.bst
+Database file #1: adhawk-mobilepickpocketing.bib
+Warning--I'm ignoring smartcardaliance-more-visa-paywave's extra "note" field
+--line 15 of file adhawk-mobilepickpocketing.bib
+Warning--I'm ignoring android-developers-package-android.nfc's extra "note" field
+--line 95 of file adhawk-mobilepickpocketing.bib
+Warning--I'm ignoring ds-nfc-enabling-technology's extra "howpublished" field
+--line 741 of file adhawk-mobilepickpocketing.bib
+Warning--to sort, need author or key in ecma-nfc-adoption
+Warning--to sort, need author or key in nfcworld-nfc-additions-android-2.3.3
+Warning--to sort, need author or key in google-blog-1
+Warning--to sort, need author or key in google-wallet-security-1
+Warning--to sort, need author or key in esecurityplanet-google-wallet-hacked
+Warning--to sort, need author or key in smartcardaliance-more-visa-paywave
+Warning--to sort, need author or key in idstronghold-1
+Warning--to sort, need author or key in 11alive-electronic-pickpocket-apps
+Warning--to sort, need author or key in farebot-1
+Warning--to sort, need author or key in google-play-idstronghold
+Warning--to sort, need author or key in opennfc-1
+Warning--to sort, need author or key in android-developers-advanced-nfc
+Warning--to sort, need author or key in pittcard-1
+Warning--to sort, need author or key in list-of-nfc-phones
+Warning--to sort, need author or key in android-developers-nfc-basics
+Warning--to sort, need author or key in emv-upgrade
+Warning--to sort, need author or key in smartphonechamp-second-major-flaw-google-wallet
+Warning--to sort, need author or key in electronista-mcafee-malware-surge
+Warning--to sort, need author or key in amazon-android-appstore
+Warning--to sort, need author or key in android-developers-beam
+Warning--to sort, need author or key in upitt-rfid-switch
+Warning--to sort, need author or key in android-developers-package-android.nfc
+Warning--to sort, need author or key in android-developers-samplecode-nfcdemo
+Warning--to sort, need author or key in lookout-search-chinese
+Warning--to sort, need author or key in informationweek-curated-apps
+Warning--can't use both volume and number fields in ieee-beacon-mobileos-review
+You've used 46 entries,
+            2253 wiz_defined-function locations,
+            753 strings with 12746 characters,
+and the built_in function-call counts, 10198 in all, are:
+= -- 1005
+> -- 242
+< -- 0
++ -- 120
+- -- 70
+* -- 505
+:= -- 1427
+add.period$ -- 148
+call.type$ -- 46
+change.case$ -- 174
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 422
+empty$ -- 1135
+format.name$ -- 70
+if$ -- 2353
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 7
+newline$ -- 242
+num.names$ -- 42
+pop$ -- 392
+preamble$ -- 1
+purify$ -- 127
+quote$ -- 0
+skip$ -- 315
+stack$ -- 0
+substring$ -- 354
+swap$ -- 97
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 184
+warning$ -- 26
+while$ -- 56
+width$ -- 48
+write$ -- 472
+(There were 29 warnings)
